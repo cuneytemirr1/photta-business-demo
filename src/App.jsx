@@ -6,6 +6,7 @@ import EntryPage from './pages/EntryPage'
 import WelcomePage from './pages/WelcomePage'
 import HomePage from './pages/HomePage'
 import CategoryPage from './pages/CategoryPage'
+import ProductPage from './pages/ProductPage'
 import AnnouncementBar from './components/AnnouncementBar'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -45,7 +46,7 @@ export default function App() {
         <Route path="/home" element={<ProtectedRoute><Layout><HomePage /></Layout></ProtectedRoute>} />
         <Route path="/kadin" element={<ProtectedRoute><Layout><CategoryPage /></Layout></ProtectedRoute>} />
         <Route path="/erkek" element={<ProtectedRoute><Layout><CategoryPage /></Layout></ProtectedRoute>} />
-        <Route path="/urun/:slug" element={<ProtectedRoute><Layout><Placeholder name="URUN" /></Layout></ProtectedRoute>} />
+        <Route path="/urun/:slug" element={<ProtectedRoute><Layout><ProductPage /></Layout></ProtectedRoute>} />
         <Route path="/sepet" element={<ProtectedRoute><Layout><Placeholder name="SEPET" /></Layout></ProtectedRoute>} />
       </Routes>
     </AnimatePresence>
