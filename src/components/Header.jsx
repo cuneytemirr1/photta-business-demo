@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Search, ShoppingBag, Menu } from 'lucide-react'
+import { AnimatePresence } from 'framer-motion'
 import { useBrand } from '../context/BrandContext'
 import { useCart } from '../context/CartContext'
 import MegaMenu from './MegaMenu'
@@ -51,7 +52,9 @@ export default function Header({ onSearchOpen }) {
           </div>
         </div>
 
-        {megaMenu && <MegaMenu category={megaMenu} onClose={() => setMegaMenu(null)} />}
+        <AnimatePresence>
+          {megaMenu && <MegaMenu category={megaMenu} onClose={() => setMegaMenu(null)} />}
+        </AnimatePresence>
       </header>
 
       <MobileMenu isOpen={mobileOpen} onClose={() => setMobileOpen(false)} />

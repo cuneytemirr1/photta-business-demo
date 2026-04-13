@@ -20,6 +20,11 @@ export default function ProductPage() {
   const [accordion, setAccordion] = useState(null)
   const [addedFeedback, setAddedFeedback] = useState(false)
 
+  const currentImage = product ? product.colors[selectedColor]?.image : null
+  const fullImageUrl = currentImage ? `${window.location.origin}/img/${currentImage}` : null
+
+  usePhotta(fullImageUrl)
+
   if (!product) {
     return (
       <PageTransition>
@@ -30,11 +35,6 @@ export default function ProductPage() {
       </PageTransition>
     )
   }
-
-  const currentImage = product.colors[selectedColor].image
-  const fullImageUrl = `${window.location.origin}/img/${currentImage}`
-
-  usePhotta(fullImageUrl)
 
   function handleColorChange(index) {
     setSelectedColor(index)
