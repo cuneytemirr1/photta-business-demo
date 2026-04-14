@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Descubra a experiência de experimentação virtual",
+    "brandLabel": "Nome da Sua Marca",
+    "brandPlaceholder": "Introduza o nome da sua marca...",
+    "start": "Começar"
+  },
+  "welcome": {
+    "readyQuestion": " — está pronto para a experiência?",
+    "tagline": "Experimente primeiro, decida depois.",
+    "skip": "Saltar →"
+  },
+  "home": {
+    "newSeason": "NOVA TEMPORADA",
+    "seasonDesc": "Coleção Primavera / Verão 2026",
+    "discoverCollection": "Descobrir a Coleção",
+    "women": "MULHER",
+    "men": "HOMEM",
+    "featured": "Destaques"
+  },
+  "category": {
+    "showMore": "Mostrar Mais",
+    "all": "Tudo",
+    "topwear": "Tops",
+    "bottomwear": "Bottoms",
+    "outerwear": "Casacos",
+    "accessories": "Acessórios"
+  },
+  "product": {
+    "notFound": "Produto não encontrado",
+    "backToHome": "Voltar ao Início",
+    "home": "Início",
+    "women": "Mulher",
+    "men": "Homem",
+    "color": "Cor",
+    "size": "Tamanho",
+    "tryOn": "EXPERIMENTAR",
+    "addedToCart": "ADICIONADO AO CARRINHO ✓",
+    "addToCart": "ADICIONAR AO CARRINHO",
+    "productDetails": "Detalhes do Produto",
+    "shippingInfo": "Informações de Envio",
+    "shippingText": "Entrega padrão: 2-4 dias úteis. Envio gratuito em encomendas acima de {{threshold}}. Devoluções e trocas gratuitas até 14 dias.",
+    "youMayAlsoLike": "Também Pode Gostar"
+  },
+  "cart": {
+    "emptyTitle": "O Seu Carrinho Está Vazio",
+    "emptySubtitle": "Ainda não adicionou nenhum artigo ao seu carrinho.",
+    "continueShopping": "Continuar a Comprar",
+    "title": "Carrinho de Compras",
+    "subtotal": "Subtotal",
+    "shipping": "Envio",
+    "free": "Grátis",
+    "total": "TOTAL",
+    "checkout": "Finalizar Encomenda"
+  },
+  "announcement": {
+    "freeShipping": "Envio gratuito em encomendas acima de {{threshold}}",
+    "newSeason": "Os produtos da nova temporada já chegaram",
+    "freeReturn": "Devoluções gratuitas até 14 dias"
+  },
+  "footer": {
+    "tagline": "Experimente primeiro, decida depois.",
+    "women": "Mulher",
+    "men": "Homem",
+    "allRightsReserved": "Todos os direitos reservados."
+  },
+  "nav": {
+    "women": "MULHER",
+    "men": "HOMEM",
+    "cart": "CARRINHO"
+  },
+  "search": {
+    "title": "Pesquisar",
+    "placeholder": "Blazer, Saia, Camisa...",
+    "noResults": "Nenhum resultado encontrado"
+  },
+  "newsletter": {
+    "title": "Fique a par de tudo",
+    "subtitle": "Subscreva e obtenha 10% de desconto",
+    "thanks": "Obrigado!",
+    "couponText": "O seu código de desconto de 10%:",
+    "emailPlaceholder": "O seu endereço de e-mail",
+    "subscribe": "Subscrever"
+  },
+  "trust": {
+    "freeShipping": "Envio Gratuito",
+    "freeShippingSub": "Acima de {{threshold}}",
+    "securePayment": "Pagamento Seguro",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Devoluções Gratuitas",
+    "freeReturnSub": "Até 14 dias",
+    "support": "Suporte 24/7",
+    "supportSub": "Sempre aqui para si"
+  },
+  "badge": {
+    "new": "Novo",
+    "bestseller": "Mais Vendido",
+    "sale": "20% Off"
+  },
+  "currency": "TL",
+  "locale": "pt-PT",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Blazer Oversized",
+      "description": "Blazer oversized. 65% poliéster, 35% viscose. Interior forrado. Fecho de um botão. Bolsos frontais. Recomenda-se limpeza a seco profissional."
+    },
+    "kadin-etek": {
+      "name": "Saia Midi em Cetim",
+      "description": "Saia midi em cetim. 100% poliéster cetinado. Detalhe de cintura elástica. Textura elegante e silhueta fluída. Recomenda-se lavagem suave a 30°C."
+    },
+    "kadin-gomlek": {
+      "name": "Camisa de Linho",
+      "description": "Camisa de linho. 100% linho natural. Corte descontraído. Abertura com botões. Detalhe de mangas arregaçáveis. Lavar a 30°C, engomar a baixa temperatura."
+    },
+    "kadin-pantolon": {
+      "name": "Calças com Pregas",
+      "description": "Calças largas com pregas. 70% poliéster, 28% viscose, 2% elastano. Cintura alta com pregas frontais. Recomenda-se limpeza a seco."
+    },
+    "kadin-triko": {
+      "name": "Camisola de Cashmere",
+      "description": "Camisola de cashmere. 95% cashmere, 5% elastano. Toque suave, malha fina. Gola redonda. Recomenda-se limpeza a seco."
+    },
+    "kadin-bot": {
+      "name": "Bota de Salto em Pele",
+      "description": "Bota de salto em pele. 100% couro genuíno. Bico fino, salto bloco de 7cm. Forro interior em couro. Fecho de correr. Limpar com spray de tratamento de couro."
+    },
+    "kadin-trench": {
+      "name": "Gabardine Longa",
+      "description": "Gabardine longa. 100% algodão gabardine. Cintura com cinto. Fecho de dupla fileira de botões. Resistente à água. Recomenda-se limpeza a seco."
+    },
+    "kadin-bluz": {
+      "name": "Blusa de Seda",
+      "description": "Blusa de seda. 100% seda natural. Decote em V, manga comprida. Textura elegante, ligeiramente transparente. Lavagem à mão ou limpeza a seco."
+    },
+    "kadin-kemer": {
+      "name": "Cinto de Pele",
+      "description": "Cinto de pele. 100% couro genuíno. Corte slim, fivela minimal dourada. Detalhe cosido à mão. Manter com creme de tratamento de couro."
+    },
+    "erkek-takim": {
+      "name": "Fato Slim Fit",
+      "description": "Fato slim fit. 55% lã, 45% poliéster. Casaco de um botão, calças slim. Casaco forrado. Recomenda-se limpeza a seco profissional."
+    },
+    "erkek-gomlek": {
+      "name": "Camisa Oxford",
+      "description": "Camisa Oxford. 100% algodão tecido Oxford. Colarinho com botões. Corte regular. Lavar a 40°C, engomar a temperatura média."
+    },
+    "erkek-chino": {
+      "name": "Calças Chino",
+      "description": "Calças chino. 98% algodão, 2% elastano. Corte slim. Bolsos laterais e bolsos traseiros. Lavar a 30°C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Casaco de Pele",
+      "description": "Casaco de pele. 100% pele de cordeiro genuína. Corte biker, hardware minimalista. Acabamento preto mate. Recomenda-se tratamento profissional de couro."
+    },
+    "erkek-kazak": {
+      "name": "Camisola de Lã Merino",
+      "description": "Camisola de lã merino. 100% lã merino extra-fina. Gola redonda, malha fina. Lavar à mão, secar na horizontal."
+    },
+    "erkek-sort": {
+      "name": "Bermudas de Linho",
+      "description": "Bermudas de linho. 100% linho natural. Corte descontraído, comprimento acima do joelho. Cintura elástica com cordão. Lavar a 30°C."
+    },
+    "erkek-bomber": {
+      "name": "Bomber Jacket",
+      "description": "Bomber jacket. 100% exterior em nylon, forro em poliéster. Colarinho, punhos e bainha canelados. Fecho de correr frontal. Lavagem suave a 30°C."
+    },
+    "erkek-loafer": {
+      "name": "Loafer em Camurça",
+      "description": "Loafer em camurça. 100% camurça genuína. Estilo penny loafer, sola de couro. Manter com escova para camurça."
+    },
+    "erkek-kemer": {
+      "name": "Cinto de Pele",
+      "description": "Cinto de pele. 100% couro genuíno full-grain. Fivela clássica prateada. Artesanal. Manter com creme de tratamento de couro."
+    }
+  },
+  "colors": {
+    "Siyah": "Preto",
+    "Beyaz": "Branco",
+    "Bej": "Bege",
+    "Gri": "Cinzento",
+    "Krem": "Creme",
+    "Sampanya": "Champanhe",
+    "Zeytin Yesili": "Verde Azeitona",
+    "Deve Tuyu": "Camelo",
+    "Lacivert": "Azul-marinho",
+    "Acik Mavi": "Azul Claro",
+    "Kahverengi": "Castanho"
+  }
+}

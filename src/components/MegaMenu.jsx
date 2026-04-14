@@ -1,14 +1,17 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 
 const subcats = [
-  { slug: 'ust-giyim', label: 'Ust Giyim' },
-  { slug: 'alt-giyim', label: 'Alt Giyim' },
-  { slug: 'dis-giyim', label: 'Dis Giyim' },
-  { slug: 'aksesuar', label: 'Aksesuar' },
+  { slug: 'ust-giyim', key: 'category.topwear' },
+  { slug: 'alt-giyim', key: 'category.bottomwear' },
+  { slug: 'dis-giyim', key: 'category.outerwear' },
+  { slug: 'aksesuar', key: 'category.accessories' },
 ]
 
 export default function MegaMenu({ category, onClose }) {
+  const { t } = useTranslation()
+
   return (
     <motion.div
       initial={{ opacity: 0, y: -8 }}
@@ -32,7 +35,7 @@ export default function MegaMenu({ category, onClose }) {
                 onClick={onClose}
                 className="text-sm font-light tracking-wider text-brand-muted hover:text-brand-text transition-colors"
               >
-                {sub.label}
+                {t(sub.key)}
               </Link>
             </motion.div>
           ))}

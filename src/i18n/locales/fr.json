@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Découvrez l'expérience d'essayage virtuel",
+    "brandLabel": "Nom de votre marque",
+    "brandPlaceholder": "Entrez le nom de votre marque...",
+    "start": "Commencer"
+  },
+  "welcome": {
+    "readyQuestion": " — êtes-vous prêt(e) pour l'expérience ?",
+    "tagline": "Essayez d'abord, décidez ensuite.",
+    "skip": "Passer →"
+  },
+  "home": {
+    "newSeason": "NOUVELLE SAISON",
+    "seasonDesc": "Collection Printemps / Été 2026",
+    "discoverCollection": "Découvrir la Collection",
+    "women": "FEMME",
+    "men": "HOMME",
+    "featured": "Coup de cœur"
+  },
+  "category": {
+    "showMore": "Voir plus",
+    "all": "Tout",
+    "topwear": "Hauts",
+    "bottomwear": "Bas",
+    "outerwear": "Vêtements d'extérieur",
+    "accessories": "Accessoires"
+  },
+  "product": {
+    "notFound": "Produit introuvable",
+    "backToHome": "Retour à l'accueil",
+    "home": "Accueil",
+    "women": "Femme",
+    "men": "Homme",
+    "color": "Couleur",
+    "size": "Taille",
+    "tryOn": "ESSAYER",
+    "addedToCart": "AJOUTÉ AU PANIER ✓",
+    "addToCart": "AJOUTER AU PANIER",
+    "productDetails": "Détails du produit",
+    "shippingInfo": "Informations de livraison",
+    "shippingText": "Livraison standard : 2 à 4 jours ouvrés. Livraison gratuite pour toute commande supérieure à {{threshold}}. Retours et échanges gratuits sous 14 jours.",
+    "youMayAlsoLike": "Vous aimerez aussi"
+  },
+  "cart": {
+    "emptyTitle": "Votre panier est vide",
+    "emptySubtitle": "Vous n'avez encore ajouté aucun article à votre panier.",
+    "continueShopping": "Continuer mes achats",
+    "title": "Panier",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "free": "Gratuit",
+    "total": "TOTAL",
+    "checkout": "Finaliser la commande"
+  },
+  "announcement": {
+    "freeShipping": "Livraison gratuite pour toute commande supérieure à {{threshold}}",
+    "newSeason": "Les nouveautés de la saison sont arrivées",
+    "freeReturn": "Retours gratuits sous 14 jours"
+  },
+  "footer": {
+    "tagline": "Essayez d'abord, décidez ensuite.",
+    "women": "Femme",
+    "men": "Homme",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "nav": {
+    "women": "FEMME",
+    "men": "HOMME",
+    "cart": "PANIER"
+  },
+  "search": {
+    "title": "Recherche",
+    "placeholder": "Blazer, Jupe, Chemise...",
+    "noResults": "Aucun résultat trouvé"
+  },
+  "newsletter": {
+    "title": "Restez dans la tendance",
+    "subtitle": "Abonnez-vous et bénéficiez de 10 % de réduction",
+    "thanks": "Merci !",
+    "couponText": "Votre code de réduction de 10 % :",
+    "emailPlaceholder": "Votre adresse e-mail",
+    "subscribe": "S'abonner"
+  },
+  "trust": {
+    "freeShipping": "Livraison gratuite",
+    "freeShippingSub": "Dès {{threshold}}",
+    "securePayment": "Paiement sécurisé",
+    "securePaymentSub": "SSL 256 bits",
+    "freeReturn": "Retours gratuits",
+    "freeReturnSub": "Sous 14 jours",
+    "support": "Assistance 24h/24 7j/7",
+    "supportSub": "Toujours là pour vous"
+  },
+  "badge": {
+    "new": "Nouveau",
+    "bestseller": "Bestseller",
+    "sale": "-20 %"
+  },
+  "currency": "TL",
+  "locale": "fr-FR",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Veste Blazer Oversize",
+      "description": "Veste blazer oversize. 65 % polyester, 35 % viscose. Doublure intérieure. Fermeture un bouton. Poches avant. Nettoyage à sec professionnel recommandé."
+    },
+    "kadin-etek": {
+      "name": "Jupe Midi Satinée",
+      "description": "Jupe midi satinée. 100 % polyester satiné. Détail élastique à la taille. Texture élégante et silhouette fluide. Lavage délicat à 30 °C recommandé."
+    },
+    "kadin-gomlek": {
+      "name": "Chemise en Lin",
+      "description": "Chemise en lin. 100 % lin naturel. Coupe décontractée. Fermeture boutonnée. Manches retroussables. Laver à 30 °C, repasser à basse température."
+    },
+    "kadin-pantolon": {
+      "name": "Pantalon à Pinces",
+      "description": "Pantalon large à pinces. 70 % polyester, 28 % viscose, 2 % élasthanne. Taille haute avec pinces avant. Nettoyage à sec recommandé."
+    },
+    "kadin-triko": {
+      "name": "Pull en Cachemire",
+      "description": "Pull en cachemire. 95 % cachemire, 5 % élasthanne. Toucher doux, maille fine. Col rond. Nettoyage à sec recommandé."
+    },
+    "kadin-bot": {
+      "name": "Bottine à Talons en Cuir",
+      "description": "Bottine à talons en cuir. 100 % cuir véritable. Bout pointu, talon carré de 7 cm. Doublure intérieure cuir. Fermeture éclair. Entretenir avec un spray de soin cuir."
+    },
+    "kadin-trench": {
+      "name": "Trench-coat Long",
+      "description": "Trench-coat long. 100 % gabardine de coton. Ceinture à la taille. Fermeture croisée boutonnée. Résistant à l'eau. Nettoyage à sec recommandé."
+    },
+    "kadin-bluz": {
+      "name": "Blouse en Soie",
+      "description": "Blouse en soie. 100 % soie naturelle. Col en V, manches longues. Texture élégante, légèrement transparente. Lavage à la main ou nettoyage à sec."
+    },
+    "kadin-kemer": {
+      "name": "Ceinture en Cuir",
+      "description": "Ceinture en cuir. 100 % cuir véritable. Coupe fine, boucle minimaliste dorée. Détail cousu main. Entretenir avec une crème de soin cuir."
+    },
+    "erkek-takim": {
+      "name": "Costume Slim Fit",
+      "description": "Costume slim fit. 55 % laine, 45 % polyester. Veste un bouton, pantalon slim. Veste doublée. Nettoyage à sec professionnel recommandé."
+    },
+    "erkek-gomlek": {
+      "name": "Chemise Oxford",
+      "description": "Chemise Oxford. 100 % coton tissé Oxford. Col boutonné. Coupe regular. Laver à 40 °C, repasser à chaleur moyenne."
+    },
+    "erkek-chino": {
+      "name": "Pantalon Chino",
+      "description": "Pantalon chino. 98 % coton, 2 % élasthanne. Coupe slim. Poches latérales et poches passepoilées au dos. Laver à 30 °C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Veste en Cuir",
+      "description": "Veste en cuir. 100 % agneau véritable. Coupe biker, quincaillerie minimaliste. Finition noir mat. Entretien cuir professionnel recommandé."
+    },
+    "erkek-kazak": {
+      "name": "Pull en Laine Mérinos",
+      "description": "Pull en laine mérinos. 100 % laine mérinos extra-fine. Col rond, maille fine. Lavage à la main, séchage à plat."
+    },
+    "erkek-sort": {
+      "name": "Bermuda en Lin",
+      "description": "Bermuda en lin. 100 % lin naturel. Coupe décontractée, longueur au-dessus du genou. Taille élastique avec cordon. Laver à 30 °C."
+    },
+    "erkek-bomber": {
+      "name": "Blouson Bomber",
+      "description": "Blouson bomber. Coque 100 % nylon, doublure polyester. Col, poignets et bas côtes côtelées. Fermeture éclair frontale. Lavage délicat à 30 °C."
+    },
+    "erkek-loafer": {
+      "name": "Mocassin en Daim",
+      "description": "Mocassin en daim. 100 % daim véritable. Style penny loafer, semelle cuir. Entretenir avec une brosse à daim."
+    },
+    "erkek-kemer": {
+      "name": "Ceinture en Cuir",
+      "description": "Ceinture en cuir. 100 % cuir pleine fleur véritable. Boucle ardillon classique, ton argent. Fabrication artisanale. Entretenir avec une crème de soin cuir."
+    }
+  },
+  "colors": {
+    "Siyah": "Noir",
+    "Beyaz": "Blanc",
+    "Bej": "Beige",
+    "Gri": "Gris",
+    "Krem": "Crème",
+    "Sampanya": "Champagne",
+    "Zeytin Yesili": "Vert olive",
+    "Deve Tuyu": "Camel",
+    "Lacivert": "Marine",
+    "Acik Mavi": "Bleu ciel",
+    "Kahverengi": "Marron"
+  }
+}

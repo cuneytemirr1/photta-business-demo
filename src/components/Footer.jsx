@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { useBrand } from '../context/BrandContext'
 
 export default function Footer() {
   const { brandName } = useBrand()
+  const { t } = useTranslation()
 
   return (
     <footer className="bg-brand-card border-t border-brand-border mt-20">
@@ -12,20 +14,20 @@ export default function Footer() {
             {brandName.toUpperCase()}
           </Link>
           <p className="text-xs text-brand-muted font-light tracking-wider mt-3">
-            Once dene, sonra karar ver.
+            {t('footer.tagline')}
           </p>
 
           <nav className="flex justify-center gap-8 mt-8">
             {[
-              { to: '/kadin', label: 'Kadin' },
-              { to: '/erkek', label: 'Erkek' },
+              { to: '/kadin', labelKey: 'footer.women' },
+              { to: '/erkek', labelKey: 'footer.men' },
             ].map(link => (
               <Link
                 key={link.to}
                 to={link.to}
                 className="text-xs font-light tracking-wider text-brand-muted hover:text-brand-text transition-colors"
               >
-                {link.label}
+                {t(link.labelKey)}
               </Link>
             ))}
           </nav>
@@ -40,7 +42,7 @@ export default function Footer() {
 
           <div className="w-12 h-px bg-brand-border mx-auto my-8" />
           <p className="text-[11px] text-brand-muted/60 tracking-wider">
-            &copy; 2026 {brandName}. Tum haklari saklidir.
+            &copy; 2026 {brandName}. {t('footer.allRightsReserved')}
           </p>
         </div>
       </div>

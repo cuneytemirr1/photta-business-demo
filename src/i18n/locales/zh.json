@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "探索虚拟试穿体验",
+    "brandLabel": "您的品牌名称",
+    "brandPlaceholder": "请输入您的品牌名称...",
+    "start": "开始"
+  },
+  "welcome": {
+    "readyQuestion": " — 您准备好体验了吗？",
+    "tagline": "先试穿，再决定。",
+    "skip": "跳过 →"
+  },
+  "home": {
+    "newSeason": "新季上市",
+    "seasonDesc": "2026 春夏系列",
+    "discoverCollection": "探索系列",
+    "women": "女装",
+    "men": "男装",
+    "featured": "精选推荐"
+  },
+  "category": {
+    "showMore": "查看更多",
+    "all": "全部",
+    "topwear": "上装",
+    "bottomwear": "下装",
+    "outerwear": "外套",
+    "accessories": "配饰"
+  },
+  "product": {
+    "notFound": "未找到商品",
+    "backToHome": "返回首页",
+    "home": "首页",
+    "women": "女装",
+    "men": "男装",
+    "color": "颜色",
+    "size": "尺码",
+    "tryOn": "虚拟试穿",
+    "addedToCart": "已加入购物车 ✓",
+    "addToCart": "加入购物车",
+    "productDetails": "商品详情",
+    "shippingInfo": "配送信息",
+    "shippingText": "标准配送：2-4个工作日。订单满{{threshold}}免运费。14天内免费退换货。",
+    "youMayAlsoLike": "您可能还喜欢"
+  },
+  "cart": {
+    "emptyTitle": "购物车是空的",
+    "emptySubtitle": "您还没有将任何商品加入购物车。",
+    "continueShopping": "继续购物",
+    "title": "购物车",
+    "subtotal": "小计",
+    "shipping": "运费",
+    "free": "免费",
+    "total": "合计",
+    "checkout": "提交订单"
+  },
+  "announcement": {
+    "freeShipping": "订单满{{threshold}}免运费",
+    "newSeason": "新季商品已上架",
+    "freeReturn": "14天内免费退货"
+  },
+  "footer": {
+    "tagline": "先试穿，再决定。",
+    "women": "女装",
+    "men": "男装",
+    "allRightsReserved": "保留所有权利。"
+  },
+  "nav": {
+    "women": "女装",
+    "men": "男装",
+    "cart": "购物车"
+  },
+  "search": {
+    "title": "搜索",
+    "placeholder": "西装外套、半裙、衬衫...",
+    "noResults": "未找到相关结果"
+  },
+  "newsletter": {
+    "title": "订阅最新资讯",
+    "subtitle": "立即订阅，享受九折优惠",
+    "thanks": "感谢您的订阅！",
+    "couponText": "您的九折优惠码：",
+    "emailPlaceholder": "您的电子邮箱",
+    "subscribe": "立即订阅"
+  },
+  "trust": {
+    "freeShipping": "免费配送",
+    "freeShippingSub": "满{{threshold}}包邮",
+    "securePayment": "安全支付",
+    "securePaymentSub": "256位SSL加密",
+    "freeReturn": "免费退货",
+    "freeReturnSub": "14天内无忧退换",
+    "support": "全天候客服",
+    "supportSub": "随时为您服务"
+  },
+  "badge": {
+    "new": "新品",
+    "bestseller": "热销爆款",
+    "sale": "八折优惠"
+  },
+  "currency": "TL",
+  "locale": "zh-CN",
+  "productData": {
+    "kadin-blazer": {
+      "name": "宽松版型西装外套",
+      "description": "宽松版型西装外套。65%聚酯纤维，35%粘胶纤维。内衬设计。单排扣闭合。前口袋设计。建议专业干洗。"
+    },
+    "kadin-etek": {
+      "name": "缎面中长裙",
+      "description": "缎面中长裙。100%聚酯缎面。松紧腰带设计。优雅质感，飘逸廓形。建议30°C温和手洗。"
+    },
+    "kadin-gomlek": {
+      "name": "亚麻衬衫",
+      "description": "亚麻衬衫。100%天然亚麻。宽松版型。前排扣设计。可卷袖细节。30°C机洗，低温熨烫。"
+    },
+    "kadin-pantolon": {
+      "name": "褶裥阔腿裤",
+      "description": "褶裥阔腿裤。70%聚酯纤维，28%粘胶纤维，2%弹性纤维。高腰前褶设计。建议干洗。"
+    },
+    "kadin-triko": {
+      "name": "羊绒毛衣",
+      "description": "羊绒毛衣。95%羊绒，5%弹性纤维。触感柔软，细腻针织。圆领设计。建议干洗。"
+    },
+    "kadin-bot": {
+      "name": "皮质粗跟靴",
+      "description": "皮质粗跟靴。100%真皮材质。尖头设计，7厘米粗跟。皮质内衬。拉链开合。使用皮革护理喷雾保养。"
+    },
+    "kadin-trench": {
+      "name": "长款风衣",
+      "description": "长款风衣。100%棉质华达呢面料。系带腰部设计。双排扣闭合。防泼水处理。建议干洗。"
+    },
+    "kadin-bluz": {
+      "name": "真丝衬衫",
+      "description": "真丝衬衫。100%天然真丝。V领，长袖设计。优雅质感，略带透明感。建议手洗或干洗。"
+    },
+    "kadin-kemer": {
+      "name": "皮质腰带",
+      "description": "皮质腰带。100%真皮材质。纤细版型，金色简约扣头。手工缝制细节。使用皮革护理霜保养。"
+    },
+    "erkek-takim": {
+      "name": "修身西装套装",
+      "description": "修身西装套装。55%羊毛，45%聚酯纤维。单排扣上装，修身裤型。西装内衬。建议专业干洗。"
+    },
+    "erkek-gomlek": {
+      "name": "牛津布衬衫",
+      "description": "牛津布衬衫。100%棉质牛津纺面料。扣领设计。常规版型。40°C机洗，中温熨烫。"
+    },
+    "erkek-chino": {
+      "name": "休闲卡其裤",
+      "description": "休闲卡其裤。98%棉，2%弹性纤维。修身版型。侧插袋及后挖袋设计。30°C机洗。"
+    },
+    "erkek-deri-ceket": {
+      "name": "皮夹克",
+      "description": "皮夹克。100%真正羔羊皮。机车款式，简约五金配件。哑光黑色表面。建议专业皮革护理。"
+    },
+    "erkek-kazak": {
+      "name": "美利奴羊毛毛衣",
+      "description": "美利奴羊毛毛衣。100%超细美利奴羊毛。圆领，细腻针织。建议手洗，平铺晾干。"
+    },
+    "erkek-sort": {
+      "name": "亚麻百慕大短裤",
+      "description": "亚麻百慕大短裤。100%天然亚麻。宽松版型，膝上长度。松紧抽绳腰头。30°C机洗。"
+    },
+    "erkek-bomber": {
+      "name": "飞行员夹克",
+      "description": "飞行员夹克。100%尼龙外壳，聚酯纤维内衬。罗纹领口、袖口及下摆。前拉链开合。30°C温和机洗。"
+    },
+    "erkek-loafer": {
+      "name": "绒面革乐福鞋",
+      "description": "绒面革乐福鞋。100%真正绒面革。便士乐福风格，皮革鞋底。使用绒面刷保养。"
+    },
+    "erkek-kemer": {
+      "name": "皮质腰带",
+      "description": "皮质腰带。100%真正全粒面皮革。经典针扣，银色调。纯手工制作。使用皮革护理霜保养。"
+    }
+  },
+  "colors": {
+    "Siyah": "黑色",
+    "Beyaz": "白色",
+    "Bej": "米色",
+    "Gri": "灰色",
+    "Krem": "奶油色",
+    "Sampanya": "香槟色",
+    "Zeytin Yesili": "橄榄绿",
+    "Deve Tuyu": "驼色",
+    "Lacivert": "深蓝色",
+    "Acik Mavi": "浅蓝色",
+    "Kahverengi": "棕色"
+  }
+}

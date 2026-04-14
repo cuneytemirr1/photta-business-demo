@@ -296,14 +296,33 @@ export function getRecommendations(product) {
   return product.recommendations.map(slug => products.find(p => p.slug === slug)).filter(Boolean)
 }
 
-export function formatPrice(price) {
-  return price.toLocaleString('tr-TR', { minimumFractionDigits: 2 }) + ' TL'
+export function formatPrice(price, t) {
+  const locale = t?.('locale') || 'tr-TR'
+  const currency = t?.('currency') || 'TL'
+  return price.toLocaleString(locale, { minimumFractionDigits: 2 }) + ' ' + currency
 }
 
-export const subcategories = [
-  { slug: 'tumu', label: 'Tumu' },
-  { slug: 'ust-giyim', label: 'Ust Giyim' },
-  { slug: 'alt-giyim', label: 'Alt Giyim' },
-  { slug: 'dis-giyim', label: 'Dis Giyim' },
-  { slug: 'aksesuar', label: 'Aksesuar' },
+export function getShippingThreshold(t) {
+  const currency = t?.('currency') || 'TL'
+  return '500 ' + currency
+}
+
+export const subcategoryKeys = [
+  { slug: 'tumu', key: 'category.all' },
+  { slug: 'ust-giyim', key: 'category.topwear' },
+  { slug: 'alt-giyim', key: 'category.bottomwear' },
+  { slug: 'dis-giyim', key: 'category.outerwear' },
+  { slug: 'aksesuar', key: 'category.accessories' },
 ]
+
+export function getProductName(product, t) {
+  return t?.(`productData.${product.slug}.name`) || product.name
+}
+
+export function getProductDescription(product, t) {
+  return t?.(`productData.${product.slug}.description`) || product.description
+}
+
+export function getColorName(colorName, t) {
+  return t?.(`colors.${colorName}`) || colorName
+}

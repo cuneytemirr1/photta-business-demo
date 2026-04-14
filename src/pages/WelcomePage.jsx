@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { useBrand } from '../context/BrandContext'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export default function WelcomePage() {
   const { brandName } = useBrand()
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const [phase, setPhase] = useState(0)
 
   useEffect(() => {
@@ -30,7 +32,7 @@ export default function WelcomePage() {
           >
             <HandwrittenText
               brandName={brandName}
-              suffix=" deneyimine hazir misin?"
+              suffix={t('welcome.readyQuestion')}
             />
           </motion.div>
         )}
@@ -44,7 +46,7 @@ export default function WelcomePage() {
             className="text-center px-8"
           >
             <p className="text-2xl md:text-4xl font-light tracking-wider text-brand-text">
-              Once dene, sonra karar ver.
+              {t('welcome.tagline')}
             </p>
           </motion.div>
         )}
@@ -54,7 +56,7 @@ export default function WelcomePage() {
         onClick={() => navigate('/home')}
         className="absolute bottom-8 right-8 text-xs text-brand-muted hover:text-brand-text transition-colors tracking-wider"
       >
-        Gec →
+        {t('welcome.skip')}
       </button>
     </div>
   )

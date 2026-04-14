@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Opplev virtuell prøving av klær",
+    "brandLabel": "Ditt Merkenavn",
+    "brandPlaceholder": "Skriv inn merkenavnet ditt...",
+    "start": "Start"
+  },
+  "welcome": {
+    "readyQuestion": " — er du klar for opplevelsen?",
+    "tagline": "Prøv først, bestem deg etterpå.",
+    "skip": "Hopp over →"
+  },
+  "home": {
+    "newSeason": "NY SESONG",
+    "seasonDesc": "Vår / Sommer 2026-kolleksjon",
+    "discoverCollection": "Utforsk Kolleksjonen",
+    "women": "DAME",
+    "men": "HERRE",
+    "featured": "Utvalgte"
+  },
+  "category": {
+    "showMore": "Vis Mer",
+    "all": "Alle",
+    "topwear": "Topper",
+    "bottomwear": "Bukser og Skjørt",
+    "outerwear": "Ytterklær",
+    "accessories": "Tilbehør"
+  },
+  "product": {
+    "notFound": "Produkt ikke funnet",
+    "backToHome": "Tilbake til Forsiden",
+    "home": "Forside",
+    "women": "Dame",
+    "men": "Herre",
+    "color": "Farge",
+    "size": "Størrelse",
+    "tryOn": "PRØV PÅ",
+    "addedToCart": "LAGT I HANDLEKURV ✓",
+    "addToCart": "LEGG I HANDLEKURV",
+    "productDetails": "Produktdetaljer",
+    "shippingInfo": "Fraktinformasjon",
+    "shippingText": "Standardlevering: 2-4 virkedager. Gratis frakt på bestillinger over {{threshold}}. Gratis retur og bytte innen 14 dager.",
+    "youMayAlsoLike": "Du Liker Kanskje Også"
+  },
+  "cart": {
+    "emptyTitle": "Handlekurven Din er Tom",
+    "emptySubtitle": "Du har ikke lagt til noen varer i handlekurven ennå.",
+    "continueShopping": "Fortsett å Handle",
+    "title": "Handlekurv",
+    "subtotal": "Delsum",
+    "shipping": "Frakt",
+    "free": "Gratis",
+    "total": "TOTALT",
+    "checkout": "Fullfør Bestilling"
+  },
+  "announcement": {
+    "freeShipping": "Gratis frakt på bestillinger over {{threshold}}",
+    "newSeason": "Nye sesongprodukter er her",
+    "freeReturn": "Gratis retur innen 14 dager"
+  },
+  "footer": {
+    "tagline": "Prøv først, bestem deg etterpå.",
+    "women": "Dame",
+    "men": "Herre",
+    "allRightsReserved": "Alle rettigheter forbeholdt."
+  },
+  "nav": {
+    "women": "DAME",
+    "men": "HERRE",
+    "cart": "HANDLEKURV"
+  },
+  "search": {
+    "title": "Søk",
+    "placeholder": "Blazer, Skjørt, Skjorte...",
+    "noResults": "Ingen resultater funnet"
+  },
+  "newsletter": {
+    "title": "Hold deg oppdatert",
+    "subtitle": "Abonner og få 10% rabatt",
+    "thanks": "Takk!",
+    "couponText": "Din 10% rabattkode:",
+    "emailPlaceholder": "Din e-postadresse",
+    "subscribe": "Abonner"
+  },
+  "trust": {
+    "freeShipping": "Gratis Frakt",
+    "freeShippingSub": "Over {{threshold}}",
+    "securePayment": "Sikker Betaling",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Gratis Retur",
+    "freeReturnSub": "Innen 14 dager",
+    "support": "24/7 Support",
+    "supportSub": "Alltid her for deg"
+  },
+  "badge": {
+    "new": "Ny",
+    "bestseller": "Bestselger",
+    "sale": "20% Off"
+  },
+  "currency": "TL",
+  "locale": "nb-NO",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Oversized Blazer",
+      "description": "Oversized blazer. 65% polyester, 35% viskose. Foret innside. Enkelt knappelukking. Frontlommer. Profesjonell rensing anbefales."
+    },
+    "kadin-etek": {
+      "name": "Sateng Midi-skjørt",
+      "description": "Sateng midi-skjørt. 100% polyestersateng. Elastisk linningdetalj. Elegant tekstur og flytende silhuett. Skånsom vask ved 30°C anbefales."
+    },
+    "kadin-gomlek": {
+      "name": "Linskjorte",
+      "description": "Linskjorte. 100% naturlig lin. Avslappet passform. Knappefronting. Oppbretter ermer. Vask ved 30°C, stryk ved lav varme."
+    },
+    "kadin-pantolon": {
+      "name": "Bukse med Legg",
+      "description": "Vide bukser med legg. 70% polyester, 28% viskose, 2% elastan. Høyt liv med frontlegg. Rensing anbefales."
+    },
+    "kadin-triko": {
+      "name": "Kashmirgenser",
+      "description": "Kashmirgenser. 95% kasjmir, 5% elastan. Myk berøring, fin strikk. Rund hals. Rensing anbefales."
+    },
+    "kadin-bot": {
+      "name": "Skinnstøvlett med Hæl",
+      "description": "Skinnstøvlett med hæl. 100% ekte skinn. Spiss tå, 7cm blokkehæl. Skinning innvendig foring. Glidelås. Rengjør med skinnpleie-spray."
+    },
+    "kadin-trench": {
+      "name": "Lang Trenchcoat",
+      "description": "Lang trenchcoat. 100% bomullsgabardine. Beltet midje. Dobbeltknapping. Vannavvisende. Rensing anbefales."
+    },
+    "kadin-bluz": {
+      "name": "Silkebluse",
+      "description": "Silkebluse. 100% naturlig silke. V-hals, lange ermer. Elegant tekstur, lett gjennomsiktig. Håndvask eller rensing."
+    },
+    "kadin-kemer": {
+      "name": "Skinnskjel",
+      "description": "Skinnskjel. 100% ekte skinn. Slank passform, minimalistisk gullfarget spenne. Håndstikket detalj. Vedlikehold med skinnpleiepasta."
+    },
+    "erkek-takim": {
+      "name": "Slim Fit Dress",
+      "description": "Slim fit dress. 55% ull, 45% polyester. Enkeltknappet jakke, slanke bukser. Foret jakke. Profesjonell rensing anbefales."
+    },
+    "erkek-gomlek": {
+      "name": "Oxford-skjorte",
+      "description": "Oxford-skjorte. 100% bomull Oxford-vev. Knappekrage. Regular fit. Vask ved 40°C, stryk ved middels varme."
+    },
+    "erkek-chino": {
+      "name": "Chinobukser",
+      "description": "Chinobukser. 98% bomull, 2% elastan. Slim fit. Sidelommer og baklommer. Vask ved 30°C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Skinnjakke",
+      "description": "Skinnjakke. 100% ekte lammeskinn. Biker-snitt, minimalistiske metalldetaljer. Matt sort finish. Profesjonell skinnpleie anbefales."
+    },
+    "erkek-kazak": {
+      "name": "Merino Ullgenser",
+      "description": "Merino ullgenser. 100% extra-fine merino ull. Rund hals, fin strikk. Håndvask, tørk flatt."
+    },
+    "erkek-sort": {
+      "name": "Lin Bermudashorts",
+      "description": "Lin bermudashorts. 100% naturlig lin. Avslappet passform, lengde over kneet. Elastisk linning med snor. Vask ved 30°C."
+    },
+    "erkek-bomber": {
+      "name": "Bomberjakke",
+      "description": "Bomberjakke. 100% nylonytterside, polyesterfôr. Ribbede krage, mansjetter og kant. Glidelås foran. Skånsom vask ved 30°C."
+    },
+    "erkek-loafer": {
+      "name": "Ruskinnsmokkasin",
+      "description": "Ruskinnsmokkasin. 100% ekte ruskinn. Penny loafer-stil, skinnsåle. Vedlikehold med ruskinnsbørste."
+    },
+    "erkek-kemer": {
+      "name": "Skinnskjel",
+      "description": "Skinnskjel. 100% ekte full-grain skinn. Klassisk pinnespenner, sølvfarget. Håndlaget. Vedlikehold med skinnpleiepasta."
+    }
+  },
+  "colors": {
+    "Siyah": "Svart",
+    "Beyaz": "Hvit",
+    "Bej": "Beige",
+    "Gri": "Grå",
+    "Krem": "Krem",
+    "Sampanya": "Champagne",
+    "Zeytin Yesili": "Olivengrønn",
+    "Deve Tuyu": "Kamel",
+    "Lacivert": "Marineblå",
+    "Acik Mavi": "Lyseblå",
+    "Kahverengi": "Brun"
+  }
+}

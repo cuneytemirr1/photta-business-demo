@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Odkryj wirtualne przymierzanie ubrań",
+    "brandLabel": "Nazwa Twojej Marki",
+    "brandPlaceholder": "Wpisz nazwę swojej marki...",
+    "start": "Rozpocznij"
+  },
+  "welcome": {
+    "readyQuestion": " — czy jesteś gotowy na doświadczenie?",
+    "tagline": "Najpierw przymierz, potem zdecyduj.",
+    "skip": "Pomiń →"
+  },
+  "home": {
+    "newSeason": "NOWY SEZON",
+    "seasonDesc": "Kolekcja Wiosna / Lato 2026",
+    "discoverCollection": "Odkryj Kolekcję",
+    "women": "KOBIETY",
+    "men": "MĘŻCZYŹNI",
+    "featured": "Wyróżnione"
+  },
+  "category": {
+    "showMore": "Pokaż Więcej",
+    "all": "Wszystko",
+    "topwear": "Góry",
+    "bottomwear": "Dołki",
+    "outerwear": "Okrycia",
+    "accessories": "Akcesoria"
+  },
+  "product": {
+    "notFound": "Produkt nie znaleziony",
+    "backToHome": "Powrót do Strony Głównej",
+    "home": "Strona Główna",
+    "women": "Kobiety",
+    "men": "Mężczyźni",
+    "color": "Kolor",
+    "size": "Rozmiar",
+    "tryOn": "PRZYMIERZ",
+    "addedToCart": "DODANO DO KOSZYKA ✓",
+    "addToCart": "DODAJ DO KOSZYKA",
+    "productDetails": "Szczegóły Produktu",
+    "shippingInfo": "Informacje o Dostawie",
+    "shippingText": "Standardowa dostawa: 2-4 dni robocze. Bezpłatna wysyłka przy zamówieniach powyżej {{threshold}}. Bezpłatne zwroty i wymiany w ciągu 14 dni.",
+    "youMayAlsoLike": "Może Ci Się Też Spodobać"
+  },
+  "cart": {
+    "emptyTitle": "Twój Koszyk Jest Pusty",
+    "emptySubtitle": "Nie dodałeś jeszcze żadnych produktów do koszyka.",
+    "continueShopping": "Kontynuuj Zakupy",
+    "title": "Koszyk",
+    "subtotal": "Suma Częściowa",
+    "shipping": "Dostawa",
+    "free": "Bezpłatna",
+    "total": "ŁĄCZNIE",
+    "checkout": "Złóż Zamówienie"
+  },
+  "announcement": {
+    "freeShipping": "Bezpłatna wysyłka przy zamówieniach powyżej {{threshold}}",
+    "newSeason": "Produkty nowego sezonu już dostępne",
+    "freeReturn": "Bezpłatne zwroty w ciągu 14 dni"
+  },
+  "footer": {
+    "tagline": "Najpierw przymierz, potem zdecyduj.",
+    "women": "Kobiety",
+    "men": "Mężczyźni",
+    "allRightsReserved": "Wszelkie prawa zastrzeżone."
+  },
+  "nav": {
+    "women": "KOBIETY",
+    "men": "MĘŻCZYŹNI",
+    "cart": "KOSZYK"
+  },
+  "search": {
+    "title": "Szukaj",
+    "placeholder": "Marynarka, Spódnica, Koszula...",
+    "noResults": "Nie znaleziono wyników"
+  },
+  "newsletter": {
+    "title": "Bądź na bieżąco",
+    "subtitle": "Zapisz się i otrzymaj 10% zniżki",
+    "thanks": "Dziękujemy!",
+    "couponText": "Twój kod rabatowy 10%:",
+    "emailPlaceholder": "Twój adres e-mail",
+    "subscribe": "Zapisz się"
+  },
+  "trust": {
+    "freeShipping": "Bezpłatna Dostawa",
+    "freeShippingSub": "Powyżej {{threshold}}",
+    "securePayment": "Bezpieczna Płatność",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Bezpłatne Zwroty",
+    "freeReturnSub": "W ciągu 14 dni",
+    "support": "Wsparcie 24/7",
+    "supportSub": "Zawsze do Twojej dyspozycji"
+  },
+  "badge": {
+    "new": "Nowość",
+    "bestseller": "Bestseller",
+    "sale": "20% Off"
+  },
+  "currency": "TL",
+  "locale": "pl-PL",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Oversizowa Marynarka",
+      "description": "Oversizowa marynarka. 65% poliester, 35% wiskoza. Podszewka wewnętrzna. Zapięcie na jeden guzik. Przednie kieszenie. Zalecane profesjonalne pranie chemiczne."
+    },
+    "kadin-etek": {
+      "name": "Satynowa Spódnica Midi",
+      "description": "Satynowa spódnica midi. 100% satyna poliestrowa. Elastyczny pas. Elegancka faktura i swobodna sylwetka. Zalecane delikatne pranie w 30°C."
+    },
+    "kadin-gomlek": {
+      "name": "Lniana Koszula",
+      "description": "Lniana koszula. 100% naturalny len. Swobodny krój. Zapięcie na guziki z przodu. Podwijane rękawy. Prać w 30°C, prasować w niskiej temperaturze."
+    },
+    "kadin-pantolon": {
+      "name": "Spodnie z Zakładkami",
+      "description": "Szerokie spodnie z zakładkami. 70% poliester, 28% wiskoza, 2% elastan. Wysoki stan z przednimi zakładkami. Zalecane pranie chemiczne."
+    },
+    "kadin-triko": {
+      "name": "Sweter Kaszmirowy",
+      "description": "Sweter kaszmirowy. 95% kaszmir, 5% elastan. Miękki w dotyku, drobny splot. Okrągły dekolt. Zalecane pranie chemiczne."
+    },
+    "kadin-bot": {
+      "name": "Skórzany But na Obcasie",
+      "description": "Skórzany but na obcasie. 100% naturalna skóra. Szpiczasty nosek, obcas blokowy 7cm. Skórzana podszewka wewnętrzna. Zamek błyskawiczny. Czyścić spray'em do pielęgnacji skóry."
+    },
+    "kadin-trench": {
+      "name": "Długi Trencz",
+      "description": "Długi trencz. 100% bawełniana gabardyna. Pas w talii. Dwurzędowe zapięcie na guziki. Odporny na wodę. Zalecane pranie chemiczne."
+    },
+    "kadin-bluz": {
+      "name": "Jedwabna Bluzka",
+      "description": "Jedwabna bluzka. 100% naturalny jedwab. Dekolt w serek, długi rękaw. Elegancka faktura, lekko prześwitująca. Prać ręcznie lub chemicznie."
+    },
+    "kadin-kemer": {
+      "name": "Skórzany Pasek",
+      "description": "Skórzany pasek. 100% naturalna skóra. Slim fit, minimalistyczna złota klamra. Detal ręcznego szycia. Pielęgnować kremem do skóry."
+    },
+    "erkek-takim": {
+      "name": "Garnitur Slim Fit",
+      "description": "Garnitur slim fit. 55% wełna, 45% poliester. Marynarka na jeden guzik, spodnie slim. Podszewka w marynarce. Zalecane profesjonalne pranie chemiczne."
+    },
+    "erkek-gomlek": {
+      "name": "Koszula Oxford",
+      "description": "Koszula Oxford. 100% bawełna tkana Oxford. Kołnierz na guziki. Regularny krój. Prać w 40°C, prasować w średniej temperaturze."
+    },
+    "erkek-chino": {
+      "name": "Spodnie Chino",
+      "description": "Spodnie chino. 98% bawełna, 2% elastan. Slim fit. Boczne kieszenie i tylne kieszenie z patką. Prać w 30°C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Skórzana Kurtka",
+      "description": "Skórzana kurtka. 100% naturalna skóra jagnięca. Krój biker, minimalistyczne detale metalowe. Matowe czarne wykończenie. Zalecana profesjonalna pielęgnacja skóry."
+    },
+    "erkek-kazak": {
+      "name": "Sweter z Wełny Merino",
+      "description": "Sweter z wełny merino. 100% wełna merino extra-fine. Okrągły dekolt, drobny splot. Prać ręcznie, suszyć poziomo."
+    },
+    "erkek-sort": {
+      "name": "Lniane Szorty Bermudy",
+      "description": "Lniane szorty bermudy. 100% naturalny len. Swobodny krój, długość do kolan. Elastyczny pas ze sznurkiem. Prać w 30°C."
+    },
+    "erkek-bomber": {
+      "name": "Kurtka Bomber",
+      "description": "Kurtka bomber. 100% nylonowa powłoka, podszewka poliestrowa. Prążkowany kołnierz, mankiety i hem. Zamek błyskawiczny z przodu. Delikatne pranie w 30°C."
+    },
+    "erkek-loafer": {
+      "name": "Mokasyn Zamszowy",
+      "description": "Mokasyn zamszowy. 100% naturalna skóra zamszowa. Styl penny loafer, skórzana podeszwa. Pielęgnować szczotką do zamszu."
+    },
+    "erkek-kemer": {
+      "name": "Skórzany Pasek",
+      "description": "Skórzany pasek. 100% naturalna skóra full-grain. Klasyczna klamra srebrna. Ręcznie wykonany. Pielęgnować kremem do skóry."
+    }
+  },
+  "colors": {
+    "Siyah": "Czarny",
+    "Beyaz": "Biały",
+    "Bej": "Beżowy",
+    "Gri": "Szary",
+    "Krem": "Kremowy",
+    "Sampanya": "Szampański",
+    "Zeytin Yesili": "Oliwkowy",
+    "Deve Tuyu": "Wielbłądzi",
+    "Lacivert": "Granatowy",
+    "Acik Mavi": "Jasnoniebieski",
+    "Kahverengi": "Brązowy"
+  }
+}

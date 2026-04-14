@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Khám phá trải nghiệm thử đồ ảo",
+    "brandLabel": "Tên Thương Hiệu Của Bạn",
+    "brandPlaceholder": "Nhập tên thương hiệu của bạn...",
+    "start": "Bắt Đầu"
+  },
+  "welcome": {
+    "readyQuestion": " — bạn đã sẵn sàng cho trải nghiệm chưa?",
+    "tagline": "Thử trước, quyết định sau.",
+    "skip": "Bỏ Qua →"
+  },
+  "home": {
+    "newSeason": "MÙA MỚI",
+    "seasonDesc": "Bộ Sưu Tập Xuân / Hè 2026",
+    "discoverCollection": "Khám Phá Bộ Sưu Tập",
+    "women": "PHỤ NỮ",
+    "men": "ĐÀN ÔNG",
+    "featured": "Nổi Bật"
+  },
+  "category": {
+    "showMore": "Xem Thêm",
+    "all": "Tất Cả",
+    "topwear": "Áo",
+    "bottomwear": "Quần",
+    "outerwear": "Áo Khoác",
+    "accessories": "Phụ Kiện"
+  },
+  "product": {
+    "notFound": "Không tìm thấy sản phẩm",
+    "backToHome": "Quay Về Trang Chủ",
+    "home": "Trang Chủ",
+    "women": "Phụ Nữ",
+    "men": "Đàn Ông",
+    "color": "Màu Sắc",
+    "size": "Kích Cỡ",
+    "tryOn": "THỬ ĐỒ",
+    "addedToCart": "ĐÃ THÊM VÀO GIỎ ✓",
+    "addToCart": "THÊM VÀO GIỎ",
+    "productDetails": "Chi Tiết Sản Phẩm",
+    "shippingInfo": "Thông Tin Giao Hàng",
+    "shippingText": "Giao hàng tiêu chuẩn: 2-4 ngày làm việc. Miễn phí vận chuyển cho đơn hàng trên {{threshold}}. Đổi trả miễn phí trong vòng 14 ngày.",
+    "youMayAlsoLike": "Bạn Có Thể Thích"
+  },
+  "cart": {
+    "emptyTitle": "Giỏ Hàng Của Bạn Đang Trống",
+    "emptySubtitle": "Bạn chưa thêm sản phẩm nào vào giỏ hàng.",
+    "continueShopping": "Tiếp Tục Mua Sắm",
+    "title": "Giỏ Hàng",
+    "subtotal": "Tạm Tính",
+    "shipping": "Vận Chuyển",
+    "free": "Miễn Phí",
+    "total": "TỔNG CỘNG",
+    "checkout": "Hoàn Tất Đơn Hàng"
+  },
+  "announcement": {
+    "freeShipping": "Miễn phí vận chuyển cho đơn hàng trên {{threshold}}",
+    "newSeason": "Sản phẩm mùa mới đã có mặt",
+    "freeReturn": "Đổi trả miễn phí trong 14 ngày"
+  },
+  "footer": {
+    "tagline": "Thử trước, quyết định sau.",
+    "women": "Phụ Nữ",
+    "men": "Đàn Ông",
+    "allRightsReserved": "Bảo lưu mọi quyền."
+  },
+  "nav": {
+    "women": "PHỤ NỮ",
+    "men": "ĐÀN ÔNG",
+    "cart": "GIỎ HÀNG"
+  },
+  "search": {
+    "title": "Tìm Kiếm",
+    "placeholder": "Blazer, Váy, Sơ Mi...",
+    "noResults": "Không tìm thấy kết quả"
+  },
+  "newsletter": {
+    "title": "Luôn cập nhật xu hướng",
+    "subtitle": "Đăng ký và nhận ưu đãi 10%",
+    "thanks": "Cảm ơn bạn!",
+    "couponText": "Mã giảm giá 10% của bạn:",
+    "emailPlaceholder": "Địa chỉ email của bạn",
+    "subscribe": "Đăng Ký"
+  },
+  "trust": {
+    "freeShipping": "Miễn Phí Vận Chuyển",
+    "freeShippingSub": "Trên {{threshold}}",
+    "securePayment": "Thanh Toán An Toàn",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Đổi Trả Miễn Phí",
+    "freeReturnSub": "Trong vòng 14 ngày",
+    "support": "Hỗ Trợ 24/7",
+    "supportSub": "Luôn sẵn sàng phục vụ bạn"
+  },
+  "badge": {
+    "new": "Mới",
+    "bestseller": "Bán Chạy",
+    "sale": "20% Off"
+  },
+  "currency": "TL",
+  "locale": "vi-VN",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Áo Blazer Oversized",
+      "description": "Áo blazer oversized. 65% polyester, 35% viscose. Lót bên trong. Cài một nút. Túi trước. Khuyến nghị giặt khô chuyên nghiệp."
+    },
+    "kadin-etek": {
+      "name": "Chân Váy Midi Satin",
+      "description": "Chân váy midi satin. 100% polyester satin. Chi tiết cạp thun. Chất liệu sang trọng và dáng chảy mềm mại. Khuyến nghị giặt nhẹ ở 30°C."
+    },
+    "kadin-gomlek": {
+      "name": "Áo Sơ Mi Lanh",
+      "description": "Áo sơ mi lanh. 100% vải lanh tự nhiên. Kiểu dáng thoải mái. Hàng cúc phía trước. Chi tiết tay áo cuộn. Giặt ở 30°C, ủi nhiệt độ thấp."
+    },
+    "kadin-pantolon": {
+      "name": "Quần Ống Rộng Xếp Ly",
+      "description": "Quần ống rộng xếp ly. 70% polyester, 28% viscose, 2% elastane. Cạp cao với ly trước. Khuyến nghị giặt khô."
+    },
+    "kadin-triko": {
+      "name": "Áo Len Cashmere",
+      "description": "Áo len cashmere. 95% cashmere, 5% elastane. Mềm mại, dệt mịn. Cổ tròn. Khuyến nghị giặt khô."
+    },
+    "kadin-bot": {
+      "name": "Boot Da Cao Gót",
+      "description": "Boot da cao gót. 100% da thật. Mũi nhọn, gót block 7cm. Lót da bên trong. Khóa kéo. Vệ sinh bằng xịt dưỡng da."
+    },
+    "kadin-trench": {
+      "name": "Áo Măng Tô Dài",
+      "description": "Áo măng tô dài. 100% vải gabardine cotton. Thắt lưng eo. Hàng cúc đôi. Chống thấm nước. Khuyến nghị giặt khô."
+    },
+    "kadin-bluz": {
+      "name": "Áo Kiểu Lụa",
+      "description": "Áo kiểu lụa. 100% lụa tự nhiên. Cổ chữ V, tay dài. Chất liệu sang trọng, hơi xuyên thấu. Giặt tay hoặc giặt khô."
+    },
+    "kadin-kemer": {
+      "name": "Thắt Lưng Da",
+      "description": "Thắt lưng da. 100% da thật. Kiểu slim, khóa mạ vàng tối giản. Chi tiết khâu tay. Dưỡng bằng kem da."
+    },
+    "erkek-takim": {
+      "name": "Bộ Vest Slim Fit",
+      "description": "Bộ vest slim fit. 55% len, 45% polyester. Áo vest một nút, quần slim. Áo vest có lót. Khuyến nghị giặt khô chuyên nghiệp."
+    },
+    "erkek-gomlek": {
+      "name": "Áo Sơ Mi Oxford",
+      "description": "Áo sơ mi Oxford. 100% vải dệt Oxford cotton. Cổ có nút. Kiểu dáng regular. Giặt ở 40°C, ủi nhiệt độ trung bình."
+    },
+    "erkek-chino": {
+      "name": "Quần Chino",
+      "description": "Quần chino. 98% cotton, 2% elastane. Slim fit. Túi bên và túi hậu. Giặt ở 30°C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Áo Khoác Da",
+      "description": "Áo khoác da. 100% da cừu thật. Kiểu biker, phụ kiện kim loại tối giản. Màu đen mờ. Khuyến nghị chăm sóc da chuyên nghiệp."
+    },
+    "erkek-kazak": {
+      "name": "Áo Len Merino",
+      "description": "Áo len merino. 100% lông cừu merino siêu mịn. Cổ tròn, dệt mịn. Giặt tay, phơi nằm ngang."
+    },
+    "erkek-sort": {
+      "name": "Quần Short Bermuda Lanh",
+      "description": "Quần short bermuda lanh. 100% vải lanh tự nhiên. Kiểu dáng thoải mái, dài qua gối. Cạp thun có dây rút. Giặt ở 30°C."
+    },
+    "erkek-bomber": {
+      "name": "Áo Khoác Bomber",
+      "description": "Áo khoác bomber. 100% nylon ngoài, lót polyester. Cổ, manchette và gấu viền gân. Khóa kéo trước. Giặt nhẹ ở 30°C."
+    },
+    "erkek-loafer": {
+      "name": "Giày Lười Da Lộn",
+      "description": "Giày lười da lộn. 100% da lộn thật. Kiểu penny loafer, đế da. Chăm sóc bằng bàn chải da lộn."
+    },
+    "erkek-kemer": {
+      "name": "Thắt Lưng Da",
+      "description": "Thắt lưng da. 100% da thật full-grain. Khóa cài cổ điển màu bạc. Thủ công. Dưỡng bằng kem da."
+    }
+  },
+  "colors": {
+    "Siyah": "Đen",
+    "Beyaz": "Trắng",
+    "Bej": "Be",
+    "Gri": "Xám",
+    "Krem": "Kem",
+    "Sampanya": "Sâm Panh",
+    "Zeytin Yesili": "Xanh Ô Liu",
+    "Deve Tuyu": "Lạc Đà",
+    "Lacivert": "Xanh Navy",
+    "Acik Mavi": "Xanh Nhạt",
+    "Kahverengi": "Nâu"
+  }
+}

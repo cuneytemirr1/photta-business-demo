@@ -2,14 +2,17 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Search, ShoppingBag, Menu } from 'lucide-react'
 import { AnimatePresence } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import { useBrand } from '../context/BrandContext'
 import { useCart } from '../context/CartContext'
 import MegaMenu from './MegaMenu'
 import MobileMenu from './MobileMenu'
+import LanguageSwitcher from './LanguageSwitcher'
 
 export default function Header({ onSearchOpen }) {
   const { brandName } = useBrand()
   const { totalItems } = useCart()
+  const { t } = useTranslation()
   const [megaMenu, setMegaMenu] = useState(null)
   const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -28,13 +31,14 @@ export default function Header({ onSearchOpen }) {
                   to={`/${cat}`}
                   className="text-xs font-normal tracking-[0.15em] uppercase text-brand-muted hover:text-brand-text transition-colors py-5"
                 >
-                  {cat === 'kadin' ? 'KADIN' : 'ERKEK'}
+                  {cat === 'kadin' ? t('nav.women') : t('nav.men')}
                 </Link>
               </div>
             ))}
           </nav>
 
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher compact />
             <button onClick={onSearchOpen} className="text-brand-text hover:text-emerald-500 transition-colors">
               <Search size={18} strokeWidth={1.5} />
             </button>

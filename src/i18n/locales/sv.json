@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Upplev virtuell provning",
+    "brandLabel": "Ditt varumärkesnamn",
+    "brandPlaceholder": "Ange ditt varumärkesnamn...",
+    "start": "Börja"
+  },
+  "welcome": {
+    "readyQuestion": " — är du redo för upplevelsen?",
+    "tagline": "Prova först, bestäm sedan.",
+    "skip": "Hoppa över →"
+  },
+  "home": {
+    "newSeason": "NY SÄSONG",
+    "seasonDesc": "Vår / Sommar Kollektion 2026",
+    "discoverCollection": "Utforska Kollektionen",
+    "women": "DAM",
+    "men": "HERR",
+    "featured": "Utvalda"
+  },
+  "category": {
+    "showMore": "Visa mer",
+    "all": "Alla",
+    "topwear": "Toppar",
+    "bottomwear": "Byxor och Kjolar",
+    "outerwear": "Ytterkläder",
+    "accessories": "Accessoarer"
+  },
+  "product": {
+    "notFound": "Produkten hittades inte",
+    "backToHome": "Tillbaka till startsidan",
+    "home": "Hem",
+    "women": "Dam",
+    "men": "Herr",
+    "color": "Färg",
+    "size": "Storlek",
+    "tryOn": "PROVA VIRTUELLT",
+    "addedToCart": "TILLAGD I VARUKORG ✓",
+    "addToCart": "LÄGG I VARUKORG",
+    "productDetails": "Produktdetaljer",
+    "shippingInfo": "Fraktinformation",
+    "shippingText": "Standardleverans: 2-4 arbetsdagar. Gratis frakt på beställningar över {{threshold}}. Kostnadsfria returer och byten inom 14 dagar.",
+    "youMayAlsoLike": "Du kanske också gillar"
+  },
+  "cart": {
+    "emptyTitle": "Din Varukorg är Tom",
+    "emptySubtitle": "Du har inte lagt till några artiklar i varukorgen ännu.",
+    "continueShopping": "Fortsätt handla",
+    "title": "Varukorg",
+    "subtotal": "Delsumma",
+    "shipping": "Frakt",
+    "free": "Gratis",
+    "total": "TOTALT",
+    "checkout": "Slutför Beställning"
+  },
+  "announcement": {
+    "freeShipping": "Gratis frakt på beställningar över {{threshold}}",
+    "newSeason": "Nya säsongsprodukter har anlänt",
+    "freeReturn": "Gratis retur inom 14 dagar"
+  },
+  "footer": {
+    "tagline": "Prova först, bestäm sedan.",
+    "women": "Dam",
+    "men": "Herr",
+    "allRightsReserved": "Alla rättigheter förbehållna."
+  },
+  "nav": {
+    "women": "DAM",
+    "men": "HERR",
+    "cart": "VARUKORG"
+  },
+  "search": {
+    "title": "Sök",
+    "placeholder": "Blazer, Kjol, Skjorta...",
+    "noResults": "Inga resultat hittades"
+  },
+  "newsletter": {
+    "title": "Håll dig uppdaterad",
+    "subtitle": "Prenumerera och få 10% rabatt",
+    "thanks": "Tack!",
+    "couponText": "Din 10% rabattkod:",
+    "emailPlaceholder": "Din e-postadress",
+    "subscribe": "Prenumerera"
+  },
+  "trust": {
+    "freeShipping": "Gratis Frakt",
+    "freeShippingSub": "Över {{threshold}}",
+    "securePayment": "Säker Betalning",
+    "securePaymentSub": "256-bitars SSL",
+    "freeReturn": "Gratis Retur",
+    "freeReturnSub": "Inom 14 dagar",
+    "support": "Dygnet runt support",
+    "supportSub": "Alltid här för dig"
+  },
+  "badge": {
+    "new": "Ny",
+    "bestseller": "Bästsäljare",
+    "sale": "20% Rabatt"
+  },
+  "currency": "TL",
+  "locale": "sv-SE",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Oversized Kavaj",
+      "description": "Oversized kavaj med ledig passform. 65% polyester, 35% viskos. Fodrad insida. Enkelknäppt. Framfickor. Professionell kemtvätt rekommenderas."
+    },
+    "kadin-etek": {
+      "name": "Satäng Midikjol",
+      "description": "Midikjol i satäng. 100% polyestersatäng. Elastisk midja. Elegant textur och flytande silhuett. Skontvätt i 30°C rekommenderas."
+    },
+    "kadin-gomlek": {
+      "name": "Linneskjorta",
+      "description": "Linneskjorta. 100% naturligt linne. Avslappnad passform. Knäppning framtill. Uppvikbar ärm. Tvätta i 30°C, stryk på låg värme."
+    },
+    "kadin-pantolon": {
+      "name": "Plisserade Byxor",
+      "description": "Plisserade vida byxor. 70% polyester, 28% viskos, 2% elastan. Hög midja med frontplissering. Kemtvätt rekommenderas."
+    },
+    "kadin-triko": {
+      "name": "Kashmirtröja",
+      "description": "Kashmirtröja. 95% kashmir, 5% elastan. Mjuk känsla, finstickad. Rund hals. Kemtvätt rekommenderas."
+    },
+    "kadin-bot": {
+      "name": "Läderklackstövel",
+      "description": "Läderklackstövel. 100% äkta läder. Spetsig tå, 7 cm blockklack. Inre foder i läder. Dragkedja. Rengör med lädersprayvård."
+    },
+    "kadin-trench": {
+      "name": "Lång Trenchcoat",
+      "description": "Lång trenchcoat. 100% bomullsgabardine. Skärp i midjan. Dubbelknäppt med knappar. Vattenavvisande. Kemtvätt rekommenderas."
+    },
+    "kadin-bluz": {
+      "name": "Sidenblus",
+      "description": "Sidenblus. 100% naturligt siden. V-ringning, lång ärm. Elegant textur, lätt genomskinlig. Handtvätt eller kemtvätt."
+    },
+    "kadin-kemer": {
+      "name": "Läderbälte",
+      "description": "Läderbälte. 100% äkta läder. Smal passform, minimalistisk spänne i guldton. Handstygnsdetalj. Underhåll med läderkräm."
+    },
+    "erkek-takim": {
+      "name": "Slim Fit Kostym",
+      "description": "Slim fit kostym. 55% ull, 45% polyester. Enkelknäppt kavaj, smala byxor. Fodrad kavaj. Professionell kemtvätt rekommenderas."
+    },
+    "erkek-gomlek": {
+      "name": "Oxfordskjorta",
+      "description": "Oxfordskjorta. 100% bomull i oxfordvävnad. Button-down-krage. Regular fit. Tvätta i 40°C, stryk på medelhög värme."
+    },
+    "erkek-chino": {
+      "name": "Chinobyxor",
+      "description": "Chinobyxor. 98% bomull, 2% elastan. Slim fit. Sidfickor och bakfickor med passpoal. Tvätta i 30°C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Läderjacka",
+      "description": "Läderjacka. 100% äkta lammskinn. Bikersnitt, minimal hårdvara. Matt svart finish. Professionell lädervård rekommenderas."
+    },
+    "erkek-kazak": {
+      "name": "Merinoullströja",
+      "description": "Merinoullströja. 100% extrafin merinoull. Rund hals, finstickad. Handtvätt, torka plant."
+    },
+    "erkek-sort": {
+      "name": "Linne Bermudashorts",
+      "description": "Linne bermudashorts. 100% naturligt linne. Avslappnad passform, längd ovanför knäet. Elastisk midja med dragsko. Tvätta i 30°C."
+    },
+    "erkek-bomber": {
+      "name": "Bomberjacka",
+      "description": "Bomberjacka. 100% nylonskal, polyesterfoder. Ribbad krage, manschetter och kant. Dragkedja framtill. Skontvätt i 30°C."
+    },
+    "erkek-loafer": {
+      "name": "Mockasinsko",
+      "description": "Mockasinsko. 100% äkta mocka. Penny loafer-stil, lädersulor. Underhåll med mockaborste."
+    },
+    "erkek-kemer": {
+      "name": "Läderbälte",
+      "description": "Läderbälte. 100% äkta fullnarvat läder. Klassisk nålspänne, silvertonfärgad. Handgjord. Underhåll med läderkräm."
+    }
+  },
+  "colors": {
+    "Siyah": "Svart",
+    "Beyaz": "Vit",
+    "Bej": "Beige",
+    "Gri": "Grå",
+    "Krem": "Kräm",
+    "Sampanya": "Champagne",
+    "Zeytin Yesili": "Olivgrön",
+    "Deve Tuyu": "Kamel",
+    "Lacivert": "Marinblå",
+    "Acik Mavi": "Ljusblå",
+    "Kahverengi": "Brun"
+  }
+}

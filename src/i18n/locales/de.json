@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Entdecke das virtuelle Anprobe-Erlebnis",
+    "brandLabel": "Ihr Markenname",
+    "brandPlaceholder": "Geben Sie Ihren Markennamen ein...",
+    "start": "Starten"
+  },
+  "welcome": {
+    "readyQuestion": " — sind Sie bereit für das Erlebnis?",
+    "tagline": "Erst anprobieren, dann entscheiden.",
+    "skip": "Überspringen →"
+  },
+  "home": {
+    "newSeason": "NEUE SAISON",
+    "seasonDesc": "Frühling / Sommer Kollektion 2026",
+    "discoverCollection": "Kollektion entdecken",
+    "women": "DAMEN",
+    "men": "HERREN",
+    "featured": "Highlights"
+  },
+  "category": {
+    "showMore": "Mehr anzeigen",
+    "all": "Alle",
+    "topwear": "Oberteile",
+    "bottomwear": "Unterteile",
+    "outerwear": "Oberbekleidung",
+    "accessories": "Accessoires"
+  },
+  "product": {
+    "notFound": "Produkt nicht gefunden",
+    "backToHome": "Zurück zur Startseite",
+    "home": "Startseite",
+    "women": "Damen",
+    "men": "Herren",
+    "color": "Farbe",
+    "size": "Größe",
+    "tryOn": "ANPROBIEREN",
+    "addedToCart": "IN DEN WARENKORB GELEGT ✓",
+    "addToCart": "IN DEN WARENKORB",
+    "productDetails": "Produktdetails",
+    "shippingInfo": "Versandinformationen",
+    "shippingText": "Standardlieferung: 2–4 Werktage. Kostenloser Versand ab {{threshold}}. Rückgabe und Umtausch sind innerhalb von 14 Tagen kostenlos.",
+    "youMayAlsoLike": "Das könnte Ihnen auch gefallen"
+  },
+  "cart": {
+    "emptyTitle": "Ihr Warenkorb ist leer",
+    "emptySubtitle": "Sie haben noch keine Artikel in Ihren Warenkorb gelegt.",
+    "continueShopping": "Weiter einkaufen",
+    "title": "Warenkorb",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "free": "Kostenlos",
+    "total": "GESAMT",
+    "checkout": "Bestellung abschließen"
+  },
+  "announcement": {
+    "freeShipping": "Kostenloser Versand ab {{threshold}}",
+    "newSeason": "Neue Saisonprodukte sind da",
+    "freeReturn": "Kostenlose Rückgabe innerhalb von 14 Tagen"
+  },
+  "footer": {
+    "tagline": "Erst anprobieren, dann entscheiden.",
+    "women": "Damen",
+    "men": "Herren",
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "nav": {
+    "women": "DAMEN",
+    "men": "HERREN",
+    "cart": "WARENKORB"
+  },
+  "search": {
+    "title": "Suche",
+    "placeholder": "Blazer, Rock, Hemd...",
+    "noResults": "Keine Ergebnisse gefunden"
+  },
+  "newsletter": {
+    "title": "Bleiben Sie auf dem Laufenden",
+    "subtitle": "Jetzt anmelden und 10 % sparen",
+    "thanks": "Vielen Dank!",
+    "couponText": "Ihr 10 % Rabattcode:",
+    "emailPlaceholder": "Ihre E-Mail-Adresse",
+    "subscribe": "Anmelden"
+  },
+  "trust": {
+    "freeShipping": "Kostenloser Versand",
+    "freeShippingSub": "Ab {{threshold}}",
+    "securePayment": "Sicheres Bezahlen",
+    "securePaymentSub": "256-Bit-SSL",
+    "freeReturn": "Kostenlose Rückgabe",
+    "freeReturnSub": "Innerhalb von 14 Tagen",
+    "support": "24/7 Support",
+    "supportSub": "Immer für Sie da"
+  },
+  "badge": {
+    "new": "Neu",
+    "bestseller": "Bestseller",
+    "sale": "20 % Rabatt"
+  },
+  "currency": "TL",
+  "locale": "de-DE",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Oversized Blazer",
+      "description": "Oversized Blazer-Jacke. 65 % Polyester, 35 % Viskose. Gefüttertes Innenfutter. Einknopfverschluss. Aufgesetzte Vordertaschen. Professionelle chemische Reinigung empfohlen."
+    },
+    "kadin-etek": {
+      "name": "Satin-Midirock",
+      "description": "Midirock aus Satin. 100 % Polyestersatin. Elastischer Bund. Elegante Textur mit fließender Silhouette. Schonwäsche bei 30 °C empfohlen."
+    },
+    "kadin-gomlek": {
+      "name": "Leinenbluse",
+      "description": "Bluse aus Leinen. 100 % Naturleinen. Entspannte Passform. Durchgehende Knopfleiste. Aufrollbare Ärmel. Wäsche bei 30 °C, Bügeln auf niedriger Stufe."
+    },
+    "kadin-pantolon": {
+      "name": "Bundfalten-Hose",
+      "description": "Weite Hose mit Bundfalten. 70 % Polyester, 28 % Viskose, 2 % Elasthan. Hoher Bund mit vorderen Falten. Chemische Reinigung empfohlen."
+    },
+    "kadin-triko": {
+      "name": "Kaschmirpullover",
+      "description": "Pullover aus Kaschmir. 95 % Kaschmir, 5 % Elasthan. Weicher Griff, feines Strickbild. Rundhalsausschnitt. Chemische Reinigung empfohlen."
+    },
+    "kadin-bot": {
+      "name": "Lederstiefel mit Absatz",
+      "description": "Stiefel aus echtem Leder mit Blockabsatz. 100 % echtes Leder. Spitzer Zehenbereich, 7 cm Blockabsatz. Lederfutter. Reißverschluss. Pflege mit Ledersprüh empfohlen."
+    },
+    "kadin-trench": {
+      "name": "Langer Trenchcoat",
+      "description": "Langer Trenchcoat. 100 % Baumwollgabardine. Taillengürtel. Zweireihiger Knopfverschluss. Wasserabweisend. Chemische Reinigung empfohlen."
+    },
+    "kadin-bluz": {
+      "name": "Seidenbluse",
+      "description": "Bluse aus reiner Seide. 100 % Naturseide. V-Ausschnitt, langer Ärmel. Elegante Textur, leicht transparent. Handwäsche oder chemische Reinigung."
+    },
+    "kadin-kemer": {
+      "name": "Ledergürtel",
+      "description": "Gürtel aus echtem Leder. 100 % echtes Leder. Schlanke Passform, minimalistische Schließe in Goldoptik. Handgenähte Details. Pflege mit Ledercreme empfohlen."
+    },
+    "erkek-takim": {
+      "name": "Slim-Fit-Anzug",
+      "description": "Anzug in Slim Fit. 55 % Wolle, 45 % Polyester. Einknopf-Sakko, schmal geschnittene Hose. Gefüttertes Sakko. Professionelle chemische Reinigung empfohlen."
+    },
+    "erkek-gomlek": {
+      "name": "Oxford-Hemd",
+      "description": "Hemd aus Oxford-Gewebe. 100 % Baumwolle. Button-down-Kragen. Regular Fit. Wäsche bei 40 °C, Bügeln auf mittlerer Stufe."
+    },
+    "erkek-chino": {
+      "name": "Chino-Hose",
+      "description": "Chino-Hose. 98 % Baumwolle, 2 % Elasthan. Slim Fit. Seitentaschen und hintere Paspeltaschen. Wäsche bei 30 °C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Lederjacke",
+      "description": "Jacke aus echtem Lammsleder. 100 % echtes Lammsleder. Biker-Schnitt, minimale Metallapplikationen. Mattes Schwarz. Professionelle Lederpflege empfohlen."
+    },
+    "erkek-kazak": {
+      "name": "Merino-Wollpullover",
+      "description": "Pullover aus Merinowolle. 100 % extrafeines Merino. Rundhalsausschnitt, feines Strickbild. Handwäsche, liegend trocknen."
+    },
+    "erkek-sort": {
+      "name": "Leinen-Bermudashorts",
+      "description": "Bermudashorts aus Leinen. 100 % Naturleinen. Entspannte Passform, Länge über dem Knie. Elastischer Bund mit Kordel. Wäsche bei 30 °C."
+    },
+    "erkek-bomber": {
+      "name": "Bomberjacke",
+      "description": "Bomberjacke. Obermaterial 100 % Nylon, Futter aus Polyester. Gerippter Kragen, Bündchen und Saum. Reißverschluss vorne. Schonwäsche bei 30 °C."
+    },
+    "erkek-loafer": {
+      "name": "Wildleder-Loafer",
+      "description": "Loafer aus echtem Wildleder. 100 % echtes Veloursleder. Penny-Loafer-Stil, Ledersohle. Pflege mit Wildlederbürste empfohlen."
+    },
+    "erkek-kemer": {
+      "name": "Ledergürtel",
+      "description": "Gürtel aus vollem Narbenlederleder. 100 % echtes Vollnarbenleder. Klassische Rahmenschließe in Silberoptik. Handgefertigt. Pflege mit Ledercreme empfohlen."
+    }
+  },
+  "colors": {
+    "Siyah": "Schwarz",
+    "Beyaz": "Weiß",
+    "Bej": "Beige",
+    "Gri": "Grau",
+    "Krem": "Creme",
+    "Sampanya": "Champagner",
+    "Zeytin Yesili": "Olivgrün",
+    "Deve Tuyu": "Kamel",
+    "Lacivert": "Marineblau",
+    "Acik Mavi": "Hellblau",
+    "Kahverengi": "Braun"
+  }
+}

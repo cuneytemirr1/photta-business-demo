@@ -1,22 +1,26 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { X } from 'lucide-react'
-
-const messages = [
-  'Ucretsiz kargo 500 TL uzeri siparislerde',
-  'Yeni sezon urunleri sitemizde',
-  '14 gun icinde ucretsiz iade',
-]
+import { getShippingThreshold } from '../data/products'
 
 export default function AnnouncementBar() {
+  const { t } = useTranslation()
   const [visible, setVisible] = useState(true)
   const [current, setCurrent] = useState(0)
+
+  const threshold = getShippingThreshold(t)
+  const messages = [
+    t('announcement.freeShipping', { threshold }),
+    t('announcement.newSeason'),
+    t('announcement.freeReturn'),
+  ]
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent(prev => (prev + 1) % messages.length)
     }, 3500)
     return () => clearInterval(interval)
-  }, [])
+  }, [messages.length])
 
   if (!visible) return null
 

@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Temui pengalaman cuba pakai maya",
+    "brandLabel": "Nama jenama anda",
+    "brandPlaceholder": "Masukkan nama jenama anda...",
+    "start": "Mula"
+  },
+  "welcome": {
+    "readyQuestion": " — adakah anda bersedia untuk pengalaman ini?",
+    "tagline": "Cuba dulu, baru putuskan.",
+    "skip": "Langkau →"
+  },
+  "home": {
+    "newSeason": "MUSIM BAHARU",
+    "seasonDesc": "Koleksi Musim Bunga / Musim Panas 2026",
+    "discoverCollection": "Terokai Koleksi",
+    "women": "WANITA",
+    "men": "LELAKI",
+    "featured": "Pilihan Utama"
+  },
+  "category": {
+    "showMore": "Tunjukkan Lebih",
+    "all": "Semua",
+    "topwear": "Pakaian Atas",
+    "bottomwear": "Pakaian Bawah",
+    "outerwear": "Pakaian Luar",
+    "accessories": "Aksesori"
+  },
+  "product": {
+    "notFound": "Produk tidak dijumpai",
+    "backToHome": "Kembali ke Halaman Utama",
+    "home": "Utama",
+    "women": "Wanita",
+    "men": "Lelaki",
+    "color": "Warna",
+    "size": "Saiz",
+    "tryOn": "CUBA PAKAI",
+    "addedToCart": "DITAMBAH KE TROLI ✓",
+    "addToCart": "TAMBAH KE TROLI",
+    "productDetails": "Butiran Produk",
+    "shippingInfo": "Maklumat Penghantaran",
+    "shippingText": "Penghantaran standard: 2-4 hari bekerja. Penghantaran percuma untuk pesanan melebihi {{threshold}}. Pemulangan dan pertukaran percuma dalam tempoh 14 hari.",
+    "youMayAlsoLike": "Anda Mungkin Juga Suka"
+  },
+  "cart": {
+    "emptyTitle": "Troli Anda Kosong",
+    "emptySubtitle": "Anda belum menambah sebarang item ke troli.",
+    "continueShopping": "Teruskan Membeli-belah",
+    "title": "Troli Beli-belah",
+    "subtotal": "Jumlah Kecil",
+    "shipping": "Penghantaran",
+    "free": "Percuma",
+    "total": "JUMLAH",
+    "checkout": "Selesaikan Pesanan"
+  },
+  "announcement": {
+    "freeShipping": "Penghantaran percuma untuk pesanan melebihi {{threshold}}",
+    "newSeason": "Produk musim baharu sudah tiba",
+    "freeReturn": "Pemulangan percuma dalam tempoh 14 hari"
+  },
+  "footer": {
+    "tagline": "Cuba dulu, baru putuskan.",
+    "women": "Wanita",
+    "men": "Lelaki",
+    "allRightsReserved": "Hak cipta terpelihara."
+  },
+  "nav": {
+    "women": "WANITA",
+    "men": "LELAKI",
+    "cart": "TROLI"
+  },
+  "search": {
+    "title": "Cari",
+    "placeholder": "Blazer, Skirt, Kemeja...",
+    "noResults": "Tiada keputusan dijumpai"
+  },
+  "newsletter": {
+    "title": "Kekal Terkini",
+    "subtitle": "Langgan dan dapatkan diskaun 10%",
+    "thanks": "Terima kasih!",
+    "couponText": "Kod diskaun 10% anda:",
+    "emailPlaceholder": "Alamat e-mel anda",
+    "subscribe": "Langgan"
+  },
+  "trust": {
+    "freeShipping": "Penghantaran Percuma",
+    "freeShippingSub": "Melebihi {{threshold}}",
+    "securePayment": "Pembayaran Selamat",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Pemulangan Percuma",
+    "freeReturnSub": "Dalam 14 hari",
+    "support": "Sokongan 24/7",
+    "supportSub": "Sentiasa di sini untuk anda"
+  },
+  "badge": {
+    "new": "Baharu",
+    "bestseller": "Terlaris",
+    "sale": "Diskaun 20%"
+  },
+  "currency": "TL",
+  "locale": "ms-MY",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Blazer Oversized",
+      "description": "Blazer potongan oversized. 65% poliester, 35% viskos. Lapisan dalam. Kancing tunggal. Poket hadapan. Disyorkan pembersihan kimia profesional."
+    },
+    "kadin-etek": {
+      "name": "Skirt Midi Satin",
+      "description": "Skirt midi daripada satin. 100% satin poliester. Pinggang elastik. Tekstur elegan dengan siluet yang mengalir indah. Disyorkan basuhan lembut pada 30°C."
+    },
+    "kadin-gomlek": {
+      "name": "Kemeja Linen",
+      "description": "Kemeja linen. 100% linen semula jadi. Potongan longgar. Kancing di hadapan. Lengan boleh digulung. Basuh pada 30°C, gosok pada haba rendah."
+    },
+    "kadin-pantolon": {
+      "name": "Seluar Berkemban",
+      "description": "Seluar kaki lebar dengan pleat. 70% poliester, 28% viskos, 2% elastan. Pinggang tinggi dengan pleat hadapan. Disyorkan pembersihan kimia."
+    },
+    "kadin-triko": {
+      "name": "Sweater Cashmere",
+      "description": "Sweater cashmere. 95% cashmere, 5% elastan. Lembut disentuh, kait halus. Leher bulat. Disyorkan pembersihan kimia."
+    },
+    "kadin-bot": {
+      "name": "But Bertumit Kulit",
+      "description": "But bertumit daripada kulit asli. 100% kulit tulen. Hujung runcing, tumit blok 7cm. Lapisan dalam kulit. Penutup zip. Jaga dengan semburan penjagaan kulit."
+    },
+    "kadin-trench": {
+      "name": "Kot Trench Panjang",
+      "description": "Kot trench panjang. 100% gabardine kapas. Tali pinggang. Kancing berganda. Tahan air. Disyorkan pembersihan kimia."
+    },
+    "kadin-bluz": {
+      "name": "Blaus Sutera",
+      "description": "Blaus sutera. 100% sutera asli. Leher V, lengan panjang. Tekstur elegan, sedikit lut sinar. Basuh tangan atau pembersihan kimia."
+    },
+    "kadin-kemer": {
+      "name": "Tali Pinggang Kulit",
+      "description": "Tali pinggang kulit. 100% kulit tulen. Potongan ramping, buckle emas minimalis. Jahitan tangan. Jaga dengan krim penjagaan kulit."
+    },
+    "erkek-takim": {
+      "name": "Sut Slim Fit",
+      "description": "Sut slim fit. 55% bulu biri-biri, 45% poliester. Jaket kancing tunggal, seluar potongan slim. Jaket berlapik. Disyorkan pembersihan kimia profesional."
+    },
+    "erkek-gomlek": {
+      "name": "Kemeja Oxford",
+      "description": "Kemeja Oxford. 100% kapas tenunan Oxford. Kolar berkancing. Regular fit. Basuh pada 40°C, gosok pada haba sederhana."
+    },
+    "erkek-chino": {
+      "name": "Seluar Chino",
+      "description": "Seluar chino. 98% kapas, 2% elastan. Slim fit. Poket sisi dan poket belakang. Basuh pada 30°C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Jaket Kulit",
+      "description": "Jaket kulit. 100% kulit anak domba tulen. Potongan biker, perkakasan minimal. Kemasan hitam matte. Disyorkan penjagaan kulit profesional."
+    },
+    "erkek-kazak": {
+      "name": "Sweater Bulu Merino",
+      "description": "Sweater bulu merino. 100% bulu merino halus. Leher bulat, kait halus. Basuh tangan, kering rata."
+    },
+    "erkek-sort": {
+      "name": "Seluar Pendek Bermuda Linen",
+      "description": "Seluar pendek bermuda linen. 100% linen semula jadi. Potongan longgar, panjang atas lutut. Pinggang elastik dengan tali tarik. Basuh pada 30°C."
+    },
+    "erkek-bomber": {
+      "name": "Jaket Bomber",
+      "description": "Jaket bomber. Luar 100% nylon, lapisan poliester. Kolar, manset dan kelim berrib. Zip hadapan. Basuh lembut pada 30°C."
+    },
+    "erkek-loafer": {
+      "name": "Loafer Suede",
+      "description": "Loafer suede. 100% kulit suede tulen. Gaya penny loafer, tapak kulit. Jaga dengan berus suede."
+    },
+    "erkek-kemer": {
+      "name": "Tali Pinggang Kulit",
+      "description": "Tali pinggang kulit. 100% kulit full-grain tulen. Buckle pin klasik, ton perak. Buatan tangan. Jaga dengan krim penjagaan kulit."
+    }
+  },
+  "colors": {
+    "Siyah": "Hitam",
+    "Beyaz": "Putih",
+    "Bej": "Bej",
+    "Gri": "Kelabu",
+    "Krem": "Krim",
+    "Sampanya": "Champagne",
+    "Zeytin Yesili": "Hijau Zaitun",
+    "Deve Tuyu": "Kamel",
+    "Lacivert": "Biru Tentera Laut",
+    "Acik Mavi": "Biru Muda",
+    "Kahverengi": "Perang"
+  }
+}

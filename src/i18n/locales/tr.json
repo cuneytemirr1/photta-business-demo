@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VİTRİN",
+    "subtitle": "Sanal deneme deneyimini keşfet",
+    "brandLabel": "Marka Adınız",
+    "brandPlaceholder": "Marka adını girin...",
+    "start": "Başlat"
+  },
+  "welcome": {
+    "readyQuestion": " deneyimine hazır mısın?",
+    "tagline": "Önce dene, sonra karar ver.",
+    "skip": "Geç →"
+  },
+  "home": {
+    "newSeason": "YENİ SEZON",
+    "seasonDesc": "2026 İlkbahar / Yaz Koleksiyonu",
+    "discoverCollection": "Koleksiyonu Keşfet",
+    "women": "KADIN",
+    "men": "ERKEK",
+    "featured": "Öne Çıkanlar"
+  },
+  "category": {
+    "showMore": "Daha Fazla Göster",
+    "all": "Tümü",
+    "topwear": "Üst Giyim",
+    "bottomwear": "Alt Giyim",
+    "outerwear": "Dış Giyim",
+    "accessories": "Aksesuar"
+  },
+  "product": {
+    "notFound": "Ürün bulunamadı",
+    "backToHome": "Ana Sayfaya Dön",
+    "home": "Ana Sayfa",
+    "women": "Kadın",
+    "men": "Erkek",
+    "color": "Renk",
+    "size": "Beden",
+    "tryOn": "ÜZERİNDE DENE",
+    "addedToCart": "SEPETE EKLENDİ ✓",
+    "addToCart": "SEPETE EKLE",
+    "productDetails": "Ürün Detayları",
+    "shippingInfo": "Teslimat Bilgisi",
+    "shippingText": "Standart teslimat: 2-4 iş günü. Ücretsiz kargo {{threshold}} ve üzeri siparişlerde geçerlidir. İade ve değişim 14 gün içinde ücretsizdir.",
+    "youMayAlsoLike": "Bunları da Beğenebilirsiniz"
+  },
+  "cart": {
+    "emptyTitle": "Sepetiniz Boş",
+    "emptySubtitle": "Henüz sepetinize ürün eklemediniz.",
+    "continueShopping": "Alışverişe Devam Et",
+    "title": "Alışveriş Sepeti",
+    "subtotal": "Ara Toplam",
+    "shipping": "Kargo",
+    "free": "Ücretsiz",
+    "total": "TOPLAM",
+    "checkout": "Siparişi Tamamla"
+  },
+  "announcement": {
+    "freeShipping": "Ücretsiz kargo {{threshold}} üzeri siparişlerde",
+    "newSeason": "Yeni sezon ürünleri sitemizde",
+    "freeReturn": "14 gün içinde ücretsiz iade"
+  },
+  "footer": {
+    "tagline": "Önce dene, sonra karar ver.",
+    "women": "Kadın",
+    "men": "Erkek",
+    "allRightsReserved": "Tüm hakları saklıdır."
+  },
+  "nav": {
+    "women": "KADIN",
+    "men": "ERKEK",
+    "cart": "SEPET"
+  },
+  "search": {
+    "title": "Ara",
+    "placeholder": "Blazer, Etek, Gömlek...",
+    "noResults": "Sonuç bulunamadı"
+  },
+  "newsletter": {
+    "title": "Yeniliklerden haberdar ol",
+    "subtitle": "Abone olarak %10 indirim kazan",
+    "thanks": "Teşekkürler!",
+    "couponText": "%10 indirim kodunuz:",
+    "emailPlaceholder": "E-posta adresiniz",
+    "subscribe": "Abone Ol"
+  },
+  "trust": {
+    "freeShipping": "Ücretsiz Kargo",
+    "freeShippingSub": "{{threshold}} üzeri",
+    "securePayment": "Güvenli Ödeme",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Ücretsiz İade",
+    "freeReturnSub": "14 gün içinde",
+    "support": "7/24 Destek",
+    "supportSub": "Her zaman yanında"
+  },
+  "badge": {
+    "new": "Yeni",
+    "bestseller": "Çok Satan",
+    "sale": "%20 İndirim"
+  },
+  "currency": "TL",
+  "locale": "tr-TR",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Oversize Blazer Ceket",
+      "description": "Oversize kalıp blazer ceket. %65 polyester, %35 viskon. Astarlı iç yapısı. Tek düğme kapama. Cep detaylı ön kısım. Profesyonel kuru temizleme önerilir."
+    },
+    "kadin-etek": {
+      "name": "Saten Midi Etek",
+      "description": "Saten midi etek. %100 polyester saten kumaş. Elastik bel detayı. Zarif dokuluş ve akıcı kalıp. 30 derecede hassas yıkama önerilir."
+    },
+    "kadin-gomlek": {
+      "name": "Keten Gömlek",
+      "description": "Keten gömlek. %100 doğal keten. Relaxed fit kalıp. Düğmeli ön kapama. Rulo kol detayı. 30 derecede yıkama, düşük ısıda ütüleme."
+    },
+    "kadin-pantolon": {
+      "name": "Pileli Pantolon",
+      "description": "Pileli geniş paça pantolon. %70 polyester, %28 viskon, %2 elastan. Yüksek bel, ön pile detayı. Kuru temizleme önerilir."
+    },
+    "kadin-triko": {
+      "name": "Kaşmir Triko",
+      "description": "Kaşmir triko. %95 kaşmir, %5 elastan. Yumuşak dokunuşlu, ince örgü. Crew yaka. Kuru temizleme önerilir."
+    },
+    "kadin-bot": {
+      "name": "Deri Topuklu Bot",
+      "description": "Deri topuklu bot. %100 doğal deri. Sivri burun, 7cm blok topuk. İç astar deri. Fermuar kapama. Deri bakım spreyi ile temizleme önerilir."
+    },
+    "kadin-trench": {
+      "name": "Uzun Trench Coat",
+      "description": "Uzun trench coat. %100 pamuk gabardin. Kemer detaylı bel. Çift sıralı düğme kapama. Yağmurluk fonksiyonlu. Kuru temizleme önerilir."
+    },
+    "kadin-bluz": {
+      "name": "İpek Bluz",
+      "description": "İpek bluz. %100 doğal ipek. V yaka, uzun kollu. Zarif dokuluş, hafif şeffaf. Elde yıkama veya kuru temizleme önerilir."
+    },
+    "kadin-kemer": {
+      "name": "Deri Kemer",
+      "description": "Deri kemer. %100 doğal deri. İnce kalıp, altın tonlu minimal toka. El yapımı dikiş detayı. Deri bakım kremi ile bakım önerilir."
+    },
+    "erkek-takim": {
+      "name": "Slim Fit Takım Elbise",
+      "description": "Slim fit takım elbise. %55 yün, %45 polyester. Tek düğme ceket, dar paça pantolon. Astarlı ceket. Profesyonel kuru temizleme önerilir."
+    },
+    "erkek-gomlek": {
+      "name": "Oxford Gömlek",
+      "description": "Oxford gömlek. %100 pamuk Oxford dokuma. Button-down yaka. Regular fit kalıp. 40 derecede yıkama, orta ısıda ütüleme."
+    },
+    "erkek-chino": {
+      "name": "Chino Pantolon",
+      "description": "Chino pantolon. %98 pamuk, %2 elastan. Slim fit kalıp. Yan cep ve arka fileto cep detayı. 30 derecede yıkama."
+    },
+    "erkek-deri-ceket": {
+      "name": "Deri Ceket",
+      "description": "Deri ceket. %100 doğal kuzu derisi. Biker kesim, minimal donanım detayı. Mat siyah finish. Profesyonel deri bakımı önerilir."
+    },
+    "erkek-kazak": {
+      "name": "Merino Yün Kazak",
+      "description": "Merino yün kazak. %100 ekstra ince merino yünü. Crew yaka, ince örgü. Elde yıkama, yatay kurutma önerilir."
+    },
+    "erkek-sort": {
+      "name": "Keten Bermuda Şort",
+      "description": "Keten bermuda şort. %100 doğal keten. Relaxed fit, diz üstü boy. Elastik bel ve bağlama detayı. 30 derecede yıkama."
+    },
+    "erkek-bomber": {
+      "name": "Bomber Mont",
+      "description": "Bomber mont. %100 naylon dış yüzey, polyester astar. Ribana yaka, kol ve bel detayı. Fermuarlı ön kapama. 30 derecede hassas yıkama."
+    },
+    "erkek-loafer": {
+      "name": "Süet Loafer",
+      "description": "Süet loafer. %100 doğal süet deri. Penny loafer modeli, deri taban. Süet fırça ile bakım önerilir."
+    },
+    "erkek-kemer": {
+      "name": "Deri Kemer",
+      "description": "Deri kemer. %100 doğal tam tahıl deri. Klasik iğne tokalı, gümüş tonlu. El yapımı. Deri bakım kremi ile bakım önerilir."
+    }
+  },
+  "colors": {
+    "Siyah": "Siyah",
+    "Beyaz": "Beyaz",
+    "Bej": "Bej",
+    "Gri": "Gri",
+    "Krem": "Krem",
+    "Sampanya": "Şampanya",
+    "Zeytin Yesili": "Zeytin Yeşili",
+    "Deve Tuyu": "Deve Tüyü",
+    "Lacivert": "Lacivert",
+    "Acik Mavi": "Açık Mavi",
+    "Kahverengi": "Kahverengi"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Koe virtuaalinen sovituskokemus",
+    "brandLabel": "Brändisi Nimi",
+    "brandPlaceholder": "Kirjoita brändisi nimi...",
+    "start": "Aloita"
+  },
+  "welcome": {
+    "readyQuestion": " — oletko valmis kokemukseen?",
+    "tagline": "Sovita ensin, päätä sitten.",
+    "skip": "Ohita →"
+  },
+  "home": {
+    "newSeason": "UUSI KAUSI",
+    "seasonDesc": "Kevät / Kesä 2026 -kollektio",
+    "discoverCollection": "Tutustu Kollektioon",
+    "women": "NAISET",
+    "men": "MIEHET",
+    "featured": "Suositellut"
+  },
+  "category": {
+    "showMore": "Näytä Lisää",
+    "all": "Kaikki",
+    "topwear": "Yläosat",
+    "bottomwear": "Alaosat",
+    "outerwear": "Päällysvaatteet",
+    "accessories": "Asusteet"
+  },
+  "product": {
+    "notFound": "Tuotetta ei löydy",
+    "backToHome": "Takaisin Etusivulle",
+    "home": "Etusivu",
+    "women": "Naiset",
+    "men": "Miehet",
+    "color": "Väri",
+    "size": "Koko",
+    "tryOn": "SOVITA",
+    "addedToCart": "LISÄTTY OSTOSKORIIN ✓",
+    "addToCart": "LISÄÄ OSTOSKORIIN",
+    "productDetails": "Tuotetiedot",
+    "shippingInfo": "Toimitusehdot",
+    "shippingText": "Vakiotoimitus: 2-4 arkipäivää. Ilmainen toimitus yli {{threshold}} tilauksille. Ilmaiset palautukset ja vaihdot 14 päivän sisällä.",
+    "youMayAlsoLike": "Sinua Saattaa Myös Kiinnostaa"
+  },
+  "cart": {
+    "emptyTitle": "Ostoskorisi on Tyhjä",
+    "emptySubtitle": "Et ole vielä lisännyt yhtään tuotetta ostoskoriin.",
+    "continueShopping": "Jatka Ostoksia",
+    "title": "Ostoskori",
+    "subtotal": "Välisumma",
+    "shipping": "Toimitus",
+    "free": "Ilmainen",
+    "total": "YHTEENSÄ",
+    "checkout": "Viimeistele Tilaus"
+  },
+  "announcement": {
+    "freeShipping": "Ilmainen toimitus yli {{threshold}} tilauksille",
+    "newSeason": "Uuden kauden tuotteet ovat saapuneet",
+    "freeReturn": "Ilmaiset palautukset 14 päivän sisällä"
+  },
+  "footer": {
+    "tagline": "Sovita ensin, päätä sitten.",
+    "women": "Naiset",
+    "men": "Miehet",
+    "allRightsReserved": "Kaikki oikeudet pidätetään."
+  },
+  "nav": {
+    "women": "NAISET",
+    "men": "MIEHET",
+    "cart": "OSTOSKORI"
+  },
+  "search": {
+    "title": "Haku",
+    "placeholder": "Bleiseri, Hame, Paita...",
+    "noResults": "Hakutuloksia ei löytynyt"
+  },
+  "newsletter": {
+    "title": "Pysy ajan tasalla",
+    "subtitle": "Tilaa uutiskirje ja saa 10% alennus",
+    "thanks": "Kiitos!",
+    "couponText": "10% alennuskoodisi:",
+    "emailPlaceholder": "Sähköpostiosoitteesi",
+    "subscribe": "Tilaa"
+  },
+  "trust": {
+    "freeShipping": "Ilmainen Toimitus",
+    "freeShippingSub": "Yli {{threshold}}",
+    "securePayment": "Turvallinen Maksu",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Ilmainen Palautus",
+    "freeReturnSub": "14 päivän sisällä",
+    "support": "Tuki 24/7",
+    "supportSub": "Aina apunasi"
+  },
+  "badge": {
+    "new": "Uusi",
+    "bestseller": "Bestseller",
+    "sale": "20% Off"
+  },
+  "currency": "TL",
+  "locale": "fi-FI",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Oversized Bleiseri",
+      "description": "Oversized bleiseri. 65% polyesteri, 35% viskoosi. Vuorattu sisäpuoli. Yksipainikkinen kiinnitys. Etutaskut. Suositellaan ammattimaista kemiallista pesua."
+    },
+    "kadin-etek": {
+      "name": "Satiininen Midi-hame",
+      "description": "Satiininen midi-hame. 100% polyesterisatiini. Joustava vyötärö. Elegantti rakenne ja virtaava siluetti. Suositellaan hellävaraista pesua 30°C:ssa."
+    },
+    "kadin-gomlek": {
+      "name": "Pellavapusero",
+      "description": "Pellavapusero. 100% luonnonpellava. Rento istuvuus. Napitus edessä. Ylösrullattavat hihat. Pese 30°C:ssa, silitä matalalla lämmöllä."
+    },
+    "kadin-pantolon": {
+      "name": "Laskoshousut",
+      "description": "Leveälahkeiset laskoshousut. 70% polyesteri, 28% viskoosi, 2% elastaani. Korkea vyötärö etulaskoksilla. Suositellaan kemiallista pesua."
+    },
+    "kadin-triko": {
+      "name": "Kashmirneulepusero",
+      "description": "Kashmirneulepusero. 95% kashmir, 5% elastaani. Pehmeä tuntu, hieno neulos. Pyöreä pääntie. Suositellaan kemiallista pesua."
+    },
+    "kadin-bot": {
+      "name": "Nahkainen Korkeakorkosaapas",
+      "description": "Nahkainen korkeakorkosaapas. 100% aitoa nahkaa. Terävä kärki, 7cm lohkokorkoa. Nahkavuori. Vetoketju. Puhdista nahkahoitosuihkeella."
+    },
+    "kadin-trench": {
+      "name": "Pitkä Trenssi",
+      "description": "Pitkä trenssi. 100% puuvillakangasta. Vyötärölle sidottava vyö. Kaksiriviset napit. Vedenkestävä. Suositellaan kemiallista pesua."
+    },
+    "kadin-bluz": {
+      "name": "Silkkipaita",
+      "description": "Silkkipaita. 100% luonnonsilkki. V-pääntie, pitkät hihat. Elegantti rakenne, hieman läpikuultava. Käsinpesu tai kemiallinen pesu."
+    },
+    "kadin-kemer": {
+      "name": "Nahkavyö",
+      "description": "Nahkavyö. 100% aitoa nahkaa. Kapea malli, kultavärinen minimalistinen solki. Käsinommeltu yksityiskohta. Hoida nahkahoitovoiteella."
+    },
+    "erkek-takim": {
+      "name": "Slim Fit Puku",
+      "description": "Slim fit puku. 55% villa, 45% polyesteri. Yksipainikkinen takki, kapealahkeiset housut. Vuorattu takki. Suositellaan ammattimaista kemiallista pesua."
+    },
+    "erkek-gomlek": {
+      "name": "Oxford-paita",
+      "description": "Oxford-paita. 100% puuvillainen Oxford-kangas. Napitettu kaulus. Regular fit. Pese 40°C:ssa, silitä keskikorkealla lämmöllä."
+    },
+    "erkek-chino": {
+      "name": "Chinohousut",
+      "description": "Chinohousut. 98% puuvilla, 2% elastaani. Slim fit. Sivutaskut ja takataskut. Pese 30°C:ssa."
+    },
+    "erkek-deri-ceket": {
+      "name": "Nahkatakki",
+      "description": "Nahkatakki. 100% aitoa karitsan nahkaa. Biker-leikkaus, minimalistiset metallidetaljit. Matta musta viimeistely. Suositellaan ammattimaista nahkahoitoa."
+    },
+    "erkek-kazak": {
+      "name": "Merinoneule",
+      "description": "Merinoneule. 100% extra-fine merinovillaa. Pyöreä pääntie, hieno neulos. Käsinpesu, kuivaa tasossa."
+    },
+    "erkek-sort": {
+      "name": "Pellava-bermudashortsit",
+      "description": "Pellava-bermudashortsit. 100% luonnonpellava. Rento istuvuus, polven yläpuolella. Joustava vyötärö nyörillä. Pese 30°C:ssa."
+    },
+    "erkek-bomber": {
+      "name": "Bombertakki",
+      "description": "Bombertakki. 100% nylonkuori, polyesterivuori. Poimutettu kaulus, rannekkeet ja helma. Vetoketju edessä. Hellävarainen pesu 30°C:ssa."
+    },
+    "erkek-loafer": {
+      "name": "Mokkanahkainen Loafer",
+      "description": "Mokkanahkainen loafer. 100% aitoa mokkanahkaa. Penny loafer -tyyli, nahkapohja. Hoida mokkaharjalla."
+    },
+    "erkek-kemer": {
+      "name": "Nahkavyö",
+      "description": "Nahkavyö. 100% aitoa full-grain nahkaa. Klassinen piikinsolki, hopeavärinen. Käsintehty. Hoida nahkahoitovoiteella."
+    }
+  },
+  "colors": {
+    "Siyah": "Musta",
+    "Beyaz": "Valkoinen",
+    "Bej": "Beige",
+    "Gri": "Harmaa",
+    "Krem": "Kerma",
+    "Sampanya": "Samppanja",
+    "Zeytin Yesili": "Oliivinvihreä",
+    "Deve Tuyu": "Kameli",
+    "Lacivert": "Laivastonsininen",
+    "Acik Mavi": "Vaaleansininen",
+    "Kahverengi": "Ruskea"
+  }
+}

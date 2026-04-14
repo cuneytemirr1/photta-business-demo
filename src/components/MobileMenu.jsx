@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X } from 'lucide-react'
 
 export default function MobileMenu({ isOpen, onClose }) {
+  const { t } = useTranslation()
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -17,9 +20,9 @@ export default function MobileMenu({ isOpen, onClose }) {
           </button>
           <nav className="flex flex-col items-center gap-12">
             {[
-              { to: '/kadin', label: 'KADIN' },
-              { to: '/erkek', label: 'ERKEK' },
-              { to: '/sepet', label: 'SEPET' },
+              { to: '/kadin', labelKey: 'nav.women' },
+              { to: '/erkek', labelKey: 'nav.men' },
+              { to: '/sepet', labelKey: 'nav.cart' },
             ].map(link => (
               <Link
                 key={link.to}
@@ -27,7 +30,7 @@ export default function MobileMenu({ isOpen, onClose }) {
                 onClick={onClose}
                 className="text-xl font-light tracking-[0.3em] text-brand-text"
               >
-                {link.label}
+                {t(link.labelKey)}
               </Link>
             ))}
           </nav>

@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Temukan pengalaman mencoba pakaian secara virtual",
+    "brandLabel": "Nama Merek Anda",
+    "brandPlaceholder": "Masukkan nama merek Anda...",
+    "start": "Mulai"
+  },
+  "welcome": {
+    "readyQuestion": " — apakah Anda siap untuk pengalamannya?",
+    "tagline": "Coba dulu, putuskan nanti.",
+    "skip": "Lewati →"
+  },
+  "home": {
+    "newSeason": "MUSIM BARU",
+    "seasonDesc": "Koleksi Semi / Panas 2026",
+    "discoverCollection": "Temukan Koleksinya",
+    "women": "WANITA",
+    "men": "PRIA",
+    "featured": "Unggulan"
+  },
+  "category": {
+    "showMore": "Tampilkan Lebih Banyak",
+    "all": "Semua",
+    "topwear": "Atasan",
+    "bottomwear": "Bawahan",
+    "outerwear": "Jaket & Mantel",
+    "accessories": "Aksesori"
+  },
+  "product": {
+    "notFound": "Produk tidak ditemukan",
+    "backToHome": "Kembali ke Beranda",
+    "home": "Beranda",
+    "women": "Wanita",
+    "men": "Pria",
+    "color": "Warna",
+    "size": "Ukuran",
+    "tryOn": "COBA PAKAI",
+    "addedToCart": "DITAMBAHKAN KE KERANJANG ✓",
+    "addToCart": "TAMBAH KE KERANJANG",
+    "productDetails": "Detail Produk",
+    "shippingInfo": "Informasi Pengiriman",
+    "shippingText": "Pengiriman standar: 2-4 hari kerja. Gratis ongkos kirim untuk pesanan di atas {{threshold}}. Pengembalian dan penukaran gratis dalam 14 hari.",
+    "youMayAlsoLike": "Anda Mungkin Juga Suka"
+  },
+  "cart": {
+    "emptyTitle": "Keranjang Anda Kosong",
+    "emptySubtitle": "Anda belum menambahkan produk apa pun ke keranjang.",
+    "continueShopping": "Lanjutkan Belanja",
+    "title": "Keranjang Belanja",
+    "subtotal": "Subtotal",
+    "shipping": "Pengiriman",
+    "free": "Gratis",
+    "total": "TOTAL",
+    "checkout": "Selesaikan Pesanan"
+  },
+  "announcement": {
+    "freeShipping": "Gratis ongkos kirim untuk pesanan di atas {{threshold}}",
+    "newSeason": "Produk musim baru sudah tersedia",
+    "freeReturn": "Pengembalian gratis dalam 14 hari"
+  },
+  "footer": {
+    "tagline": "Coba dulu, putuskan nanti.",
+    "women": "Wanita",
+    "men": "Pria",
+    "allRightsReserved": "Hak cipta dilindungi undang-undang."
+  },
+  "nav": {
+    "women": "WANITA",
+    "men": "PRIA",
+    "cart": "KERANJANG"
+  },
+  "search": {
+    "title": "Cari",
+    "placeholder": "Blazer, Rok, Kemeja...",
+    "noResults": "Tidak ada hasil ditemukan"
+  },
+  "newsletter": {
+    "title": "Tetap terupdate",
+    "subtitle": "Berlangganan dan dapatkan diskon 10%",
+    "thanks": "Terima kasih!",
+    "couponText": "Kode diskon 10% Anda:",
+    "emailPlaceholder": "Alamat email Anda",
+    "subscribe": "Berlangganan"
+  },
+  "trust": {
+    "freeShipping": "Gratis Ongkos Kirim",
+    "freeShippingSub": "Di atas {{threshold}}",
+    "securePayment": "Pembayaran Aman",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Pengembalian Gratis",
+    "freeReturnSub": "Dalam 14 hari",
+    "support": "Dukungan 24/7",
+    "supportSub": "Selalu siap membantu Anda"
+  },
+  "badge": {
+    "new": "Baru",
+    "bestseller": "Terlaris",
+    "sale": "20% Off"
+  },
+  "currency": "TL",
+  "locale": "id-ID",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Blazer Oversized",
+      "description": "Blazer oversized. 65% poliester, 35% viskosa. Lapisan dalam. Kancing tunggal. Kantong depan. Disarankan dry cleaning profesional."
+    },
+    "kadin-etek": {
+      "name": "Rok Midi Satin",
+      "description": "Rok midi satin. 100% satin poliester. Detail pinggang elastis. Tekstur elegan dan siluet mengalir. Disarankan cuci lembut di 30°C."
+    },
+    "kadin-gomlek": {
+      "name": "Kemeja Linen",
+      "description": "Kemeja linen. 100% linen alami. Potongan santai. Kancing depan. Detail lengan gulung. Cuci di 30°C, setrika suhu rendah."
+    },
+    "kadin-pantolon": {
+      "name": "Celana Panjang Pleated",
+      "description": "Celana panjang wide-leg dengan lipit. 70% poliester, 28% viskosa, 2% elastane. Pinggang tinggi dengan lipit depan. Disarankan dry cleaning."
+    },
+    "kadin-triko": {
+      "name": "Sweater Kasmir",
+      "description": "Sweater kasmir. 95% kasmir, 5% elastane. Lembut di kulit, rajutan halus. Kerah bulat. Disarankan dry cleaning."
+    },
+    "kadin-bot": {
+      "name": "Sepatu Boot Hak Kulit",
+      "description": "Sepatu boot hak kulit. 100% kulit asli. Ujung lancip, hak block 7cm. Lapisan dalam kulit. Ritsleting. Bersihkan dengan semprotan perawatan kulit."
+    },
+    "kadin-trench": {
+      "name": "Trench Coat Panjang",
+      "description": "Trench coat panjang. 100% gabardin katun. Ikat pinggang. Kancing ganda berbaris dua. Tahan air. Disarankan dry cleaning."
+    },
+    "kadin-bluz": {
+      "name": "Blus Sutra",
+      "description": "Blus sutra. 100% sutra alami. Kerah V, lengan panjang. Tekstur elegan, sedikit transparan. Cuci tangan atau dry cleaning."
+    },
+    "kadin-kemer": {
+      "name": "Ikat Pinggang Kulit",
+      "description": "Ikat pinggang kulit. 100% kulit asli. Potongan slim, gesper minimal warna emas. Detail jahit tangan. Rawat dengan krim perawatan kulit."
+    },
+    "erkek-takim": {
+      "name": "Setelan Slim Fit",
+      "description": "Setelan slim fit. 55% wol, 45% poliester. Jas satu kancing, celana slim. Jas dengan lapisan. Disarankan dry cleaning profesional."
+    },
+    "erkek-gomlek": {
+      "name": "Kemeja Oxford",
+      "description": "Kemeja Oxford. 100% katun tenun Oxford. Kerah berkancing. Potongan regular. Cuci di 40°C, setrika suhu sedang."
+    },
+    "erkek-chino": {
+      "name": "Celana Chino",
+      "description": "Celana chino. 98% katun, 2% elastane. Slim fit. Kantong samping dan kantong belakang. Cuci di 30°C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Jaket Kulit",
+      "description": "Jaket kulit. 100% kulit domba asli. Potongan biker, aksesori logam minimalis. Warna hitam matte. Disarankan perawatan kulit profesional."
+    },
+    "erkek-kazak": {
+      "name": "Sweater Wol Merino",
+      "description": "Sweater wol merino. 100% wol merino extra-fine. Kerah bulat, rajutan halus. Cuci tangan, keringkan dalam posisi datar."
+    },
+    "erkek-sort": {
+      "name": "Celana Pendek Bermuda Linen",
+      "description": "Celana pendek bermuda linen. 100% linen alami. Potongan santai, panjang di atas lutut. Pinggang elastis dengan tali. Cuci di 30°C."
+    },
+    "erkek-bomber": {
+      "name": "Jaket Bomber",
+      "description": "Jaket bomber. 100% nylon luar, lapisan poliester. Kerah, manset, dan hem bergaris. Ritsleting depan. Cuci lembut di 30°C."
+    },
+    "erkek-loafer": {
+      "name": "Sepatu Loafer Suede",
+      "description": "Sepatu loafer suede. 100% kulit suede asli. Gaya penny loafer, sol kulit. Rawat dengan sikat suede."
+    },
+    "erkek-kemer": {
+      "name": "Ikat Pinggang Kulit",
+      "description": "Ikat pinggang kulit. 100% kulit full-grain asli. Gesper pin klasik warna perak. Buatan tangan. Rawat dengan krim perawatan kulit."
+    }
+  },
+  "colors": {
+    "Siyah": "Hitam",
+    "Beyaz": "Putih",
+    "Bej": "Krem Tua",
+    "Gri": "Abu-abu",
+    "Krem": "Krem",
+    "Sampanya": "Champagne",
+    "Zeytin Yesili": "Hijau Zaitun",
+    "Deve Tuyu": "Cokelat Unta",
+    "Lacivert": "Biru Navy",
+    "Acik Mavi": "Biru Muda",
+    "Kahverengi": "Cokelat"
+  }
+}

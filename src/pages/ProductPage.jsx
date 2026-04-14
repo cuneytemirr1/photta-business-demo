@@ -1,7 +1,8 @@
-import { useParams, Link, useLocation } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { getProduct, getRecommendations, formatPrice } from '../data/products'
+import { getProduct, getRecommendations, formatPrice, getProductName, getProductDescription, getColorName, getShippingThreshold } from '../data/products'
 import { useCart } from '../context/CartContext'
 import ProductCard from '../components/ProductCard'
 import ScrollReveal from '../components/ScrollReveal'
@@ -10,6 +11,7 @@ import usePhotta from '../hooks/usePhotta'
 
 export default function ProductPage() {
   const { slug } = useParams()
+  const { t } = useTranslation()
   const product = getProduct(slug)
   const recommendations = product ? getRecommendations(product) : []
   const { addItem } = useCart()
@@ -29,12 +31,15 @@ export default function ProductPage() {
     return (
       <PageTransition>
         <div className="text-center py-20">
-          <p className="text-lg font-light text-brand-muted">Urun bulunamadi</p>
-          <Link to="/home" className="text-emerald-500 text-sm mt-4 inline-block">Ana Sayfaya Don</Link>
+          <p className="text-lg font-light text-brand-muted">{t('product.notFound')}</p>
+          <Link to="/home" className="text-emerald-500 text-sm mt-4 inline-block">{t('product.backToHome')}</Link>
         </div>
       </PageTransition>
     )
   }
+
+  const productName = getProductName(product, t)
+  const productDesc = getProductDescription(product, t)
 
   function handleColorChange(index) {
     setSelectedColor(index)
@@ -53,13 +58,13 @@ export default function ProductPage() {
       <div className="max-w-7xl mx-auto px-6 py-8">
         {/* Breadcrumb */}
         <nav className="text-xs text-brand-muted mb-8 tracking-wider">
-          <Link to="/home" className="hover:text-brand-text">Ana Sayfa</Link>
+          <Link to="/home" className="hover:text-brand-text">{t('product.home')}</Link>
           {' > '}
-          <Link to={`/${product.category}`} className="hover:text-brand-text capitalize">
-            {product.category === 'kadin' ? 'Kadin' : 'Erkek'}
+          <Link to={`/${product.category}`} className="hover:text-brand-text">
+            {product.category === 'kadin' ? t('product.women') : t('product.men')}
           </Link>
           {' > '}
-          <span className="text-brand-text">{product.name}</span>
+          <span className="text-brand-text">{productName}</span>
         </nav>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -72,7 +77,7 @@ export default function ProductPage() {
               transition={{ duration: 0.3 }}
               className="aspect-[3/4] bg-brand-card overflow-hidden mb-3"
             >
-              <img src={`/img/${currentImage}`} alt={product.name} className="w-full h-full object-cover" />
+              <img src={`/img/${currentImage}`} alt={productName} className="w-full h-full object-cover" />
             </motion.div>
             <div className="grid grid-cols-4 gap-2">
               {product.colors.map((color, i) => (
@@ -83,7 +88,7 @@ export default function ProductPage() {
                     selectedColor === i ? 'border-brand-text' : 'border-transparent hover:border-brand-border'
                   }`}
                 >
-                  <img src={`/img/${color.image}`} alt={color.name} className="w-full h-full object-cover" />
+                  <img src={`/img/${color.image}`} alt={getColorName(color.name, t)} className="w-full h-full object-cover" />
                 </button>
               ))}
             </div>
@@ -91,19 +96,19 @@ export default function ProductPage() {
 
           {/* Info */}
           <div>
-            <h1 className="text-2xl font-light tracking-wider mb-3">{product.name}</h1>
+            <h1 className="text-2xl font-light tracking-wider mb-3">{productName}</h1>
             <div className="flex items-center gap-3 mb-8">
               {product.originalPrice && (
-                <span className="text-sm text-brand-muted line-through">{formatPrice(product.originalPrice)}</span>
+                <span className="text-sm text-brand-muted line-through">{formatPrice(product.originalPrice, t)}</span>
               )}
               <span className={`text-lg font-medium ${product.originalPrice ? 'text-red-500' : ''}`}>
-                {formatPrice(product.price)}
+                {formatPrice(product.price, t)}
               </span>
             </div>
 
             {/* Colors */}
             <div className="mb-6">
-              <p className="text-xs font-medium tracking-[0.1em] uppercase text-brand-muted mb-3">Renk</p>
+              <p className="text-xs font-medium tracking-[0.1em] uppercase text-brand-muted mb-3">{t('product.color')}</p>
               <div className="flex gap-2">
                 {product.colors.map((color, i) => (
                   <button
@@ -116,7 +121,7 @@ export default function ProductPage() {
                       backgroundColor: color.hex,
                       boxShadow: color.border ? 'inset 0 0 0 1px #E5E5E0' : 'none'
                     }}
-                    aria-label={color.name}
+                    aria-label={getColorName(color.name, t)}
                   />
                 ))}
               </div>
@@ -124,7 +129,7 @@ export default function ProductPage() {
 
             {/* Sizes */}
             <div className="mb-8">
-              <p className="text-xs font-medium tracking-[0.1em] uppercase text-brand-muted mb-3">Beden</p>
+              <p className="text-xs font-medium tracking-[0.1em] uppercase text-brand-muted mb-3">{t('product.size')}</p>
               <div className="flex flex-wrap gap-2">
                 {product.sizes.map((size, i) => (
                   <button
@@ -150,7 +155,7 @@ export default function ProductPage() {
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
               </svg>
-              UZERINDE DENE
+              {t('product.tryOn')}
             </button>
 
             {/* Add to Cart */}
@@ -163,14 +168,14 @@ export default function ProductPage() {
                   : 'bg-brand-text text-white hover:bg-black disabled:opacity-30 disabled:cursor-not-allowed'
               }`}
             >
-              {addedFeedback ? 'SEPETE EKLENDI ✓' : 'SEPETE EKLE'}
+              {addedFeedback ? t('product.addedToCart') : t('product.addToCart')}
             </button>
 
             {/* Accordions */}
             <div className="mt-8 border-t border-brand-border">
               {[
-                { key: 'details', label: 'Urun Detaylari', content: product.description },
-                { key: 'shipping', label: 'Teslimat Bilgisi', content: 'Standart teslimat: 2-4 is gunu. Ucretsiz kargo 500 TL ve uzeri siparislerde gecerlidir. Iade ve degisim 14 gun icinde ucretsizdir.' },
+                { key: 'details', label: t('product.productDetails'), content: productDesc },
+                { key: 'shipping', label: t('product.shippingInfo'), content: t('product.shippingText', { threshold: getShippingThreshold(t) }) },
               ].map(item => (
                 <div key={item.key} className="border-b border-brand-border">
                   <button
@@ -198,7 +203,7 @@ export default function ProductPage() {
         {recommendations.length > 0 && (
           <section className="mt-20">
             <ScrollReveal>
-              <h2 className="text-center text-lg font-light tracking-[0.15em] uppercase mb-12">Bunlari da Begenebilirsiniz</h2>
+              <h2 className="text-center text-lg font-light tracking-[0.15em] uppercase mb-12">{t('product.youMayAlsoLike')}</h2>
             </ScrollReveal>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {recommendations.map((p, i) => (

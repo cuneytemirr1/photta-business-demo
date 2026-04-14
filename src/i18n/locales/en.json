@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Discover the virtual try-on experience",
+    "brandLabel": "Your Brand Name",
+    "brandPlaceholder": "Enter your brand name...",
+    "start": "Start"
+  },
+  "welcome": {
+    "readyQuestion": " — are you ready for the experience?",
+    "tagline": "Try first, decide later.",
+    "skip": "Skip →"
+  },
+  "home": {
+    "newSeason": "NEW SEASON",
+    "seasonDesc": "2026 Spring / Summer Collection",
+    "discoverCollection": "Discover the Collection",
+    "women": "WOMEN",
+    "men": "MEN",
+    "featured": "Featured"
+  },
+  "category": {
+    "showMore": "Show More",
+    "all": "All",
+    "topwear": "Tops",
+    "bottomwear": "Bottoms",
+    "outerwear": "Outerwear",
+    "accessories": "Accessories"
+  },
+  "product": {
+    "notFound": "Product not found",
+    "backToHome": "Back to Home",
+    "home": "Home",
+    "women": "Women",
+    "men": "Men",
+    "color": "Color",
+    "size": "Size",
+    "tryOn": "TRY ON",
+    "addedToCart": "ADDED TO CART ✓",
+    "addToCart": "ADD TO CART",
+    "productDetails": "Product Details",
+    "shippingInfo": "Shipping Info",
+    "shippingText": "Standard delivery: 2-4 business days. Free shipping on orders over {{threshold}}. Returns and exchanges are free within 14 days.",
+    "youMayAlsoLike": "You May Also Like"
+  },
+  "cart": {
+    "emptyTitle": "Your Cart is Empty",
+    "emptySubtitle": "You haven't added any items to your cart yet.",
+    "continueShopping": "Continue Shopping",
+    "title": "Shopping Cart",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free": "Free",
+    "total": "TOTAL",
+    "checkout": "Complete Order"
+  },
+  "announcement": {
+    "freeShipping": "Free shipping on orders over {{threshold}}",
+    "newSeason": "New season products are here",
+    "freeReturn": "Free returns within 14 days"
+  },
+  "footer": {
+    "tagline": "Try first, decide later.",
+    "women": "Women",
+    "men": "Men",
+    "allRightsReserved": "All rights reserved."
+  },
+  "nav": {
+    "women": "WOMEN",
+    "men": "MEN",
+    "cart": "CART"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Blazer, Skirt, Shirt...",
+    "noResults": "No results found"
+  },
+  "newsletter": {
+    "title": "Stay in the loop",
+    "subtitle": "Subscribe and get 10% off",
+    "thanks": "Thank you!",
+    "couponText": "Your 10% discount code:",
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe"
+  },
+  "trust": {
+    "freeShipping": "Free Shipping",
+    "freeShippingSub": "Over {{threshold}}",
+    "securePayment": "Secure Payment",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Free Returns",
+    "freeReturnSub": "Within 14 days",
+    "support": "24/7 Support",
+    "supportSub": "Always here for you"
+  },
+  "badge": {
+    "new": "New",
+    "bestseller": "Bestseller",
+    "sale": "20% Off"
+  },
+  "currency": "USD",
+  "locale": "en-US",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Oversized Blazer Jacket",
+      "description": "Oversized blazer jacket. 65% polyester, 35% viscose. Lined interior. Single-button closure. Front pockets. Professional dry cleaning recommended."
+    },
+    "kadin-etek": {
+      "name": "Satin Midi Skirt",
+      "description": "Satin midi skirt. 100% polyester satin. Elastic waist detail. Elegant texture and flowing silhouette. Gentle wash at 30°C recommended."
+    },
+    "kadin-gomlek": {
+      "name": "Linen Shirt",
+      "description": "Linen shirt. 100% natural linen. Relaxed fit. Button-up front. Roll-up sleeve detail. Wash at 30°C, iron on low heat."
+    },
+    "kadin-pantolon": {
+      "name": "Pleated Trousers",
+      "description": "Pleated wide-leg trousers. 70% polyester, 28% viscose, 2% elastane. High waist with front pleats. Dry cleaning recommended."
+    },
+    "kadin-triko": {
+      "name": "Cashmere Sweater",
+      "description": "Cashmere sweater. 95% cashmere, 5% elastane. Soft touch, fine knit. Crew neck. Dry cleaning recommended."
+    },
+    "kadin-bot": {
+      "name": "Leather Heeled Boot",
+      "description": "Leather heeled boot. 100% genuine leather. Pointed toe, 7cm block heel. Leather interior lining. Zip closure. Clean with leather care spray."
+    },
+    "kadin-trench": {
+      "name": "Long Trench Coat",
+      "description": "Long trench coat. 100% cotton gabardine. Belted waist. Double-breasted button closure. Water-resistant. Dry cleaning recommended."
+    },
+    "kadin-bluz": {
+      "name": "Silk Blouse",
+      "description": "Silk blouse. 100% natural silk. V-neck, long sleeve. Elegant texture, slightly sheer. Hand wash or dry clean."
+    },
+    "kadin-kemer": {
+      "name": "Leather Belt",
+      "description": "Leather belt. 100% genuine leather. Slim fit, gold-tone minimal buckle. Hand-stitched detail. Maintain with leather care cream."
+    },
+    "erkek-takim": {
+      "name": "Slim Fit Suit",
+      "description": "Slim fit suit. 55% wool, 45% polyester. Single-button jacket, slim-leg trousers. Lined jacket. Professional dry cleaning recommended."
+    },
+    "erkek-gomlek": {
+      "name": "Oxford Shirt",
+      "description": "Oxford shirt. 100% cotton Oxford weave. Button-down collar. Regular fit. Wash at 40°C, iron at medium heat."
+    },
+    "erkek-chino": {
+      "name": "Chino Pants",
+      "description": "Chino pants. 98% cotton, 2% elastane. Slim fit. Side pockets and back welt pockets. Wash at 30°C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Leather Jacket",
+      "description": "Leather jacket. 100% genuine lambskin. Biker cut, minimal hardware. Matte black finish. Professional leather care recommended."
+    },
+    "erkek-kazak": {
+      "name": "Merino Wool Sweater",
+      "description": "Merino wool sweater. 100% extra-fine merino wool. Crew neck, fine knit. Hand wash, dry flat."
+    },
+    "erkek-sort": {
+      "name": "Linen Bermuda Shorts",
+      "description": "Linen bermuda shorts. 100% natural linen. Relaxed fit, above-knee length. Elastic waist with drawstring. Wash at 30°C."
+    },
+    "erkek-bomber": {
+      "name": "Bomber Jacket",
+      "description": "Bomber jacket. 100% nylon shell, polyester lining. Ribbed collar, cuffs and hem. Zip front closure. Gentle wash at 30°C."
+    },
+    "erkek-loafer": {
+      "name": "Suede Loafer",
+      "description": "Suede loafer. 100% genuine suede leather. Penny loafer style, leather sole. Maintain with suede brush."
+    },
+    "erkek-kemer": {
+      "name": "Leather Belt",
+      "description": "Leather belt. 100% genuine full-grain leather. Classic pin buckle, silver-tone. Handcrafted. Maintain with leather care cream."
+    }
+  },
+  "colors": {
+    "Siyah": "Black",
+    "Beyaz": "White",
+    "Bej": "Beige",
+    "Gri": "Grey",
+    "Krem": "Cream",
+    "Sampanya": "Champagne",
+    "Zeytin Yesili": "Olive Green",
+    "Deve Tuyu": "Camel",
+    "Lacivert": "Navy",
+    "Acik Mavi": "Light Blue",
+    "Kahverengi": "Brown"
+  }
+}

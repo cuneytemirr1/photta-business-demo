@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Descoperă experiența de probă virtuală",
+    "brandLabel": "Numele brandului tău",
+    "brandPlaceholder": "Introdu numele brandului...",
+    "start": "Începe"
+  },
+  "welcome": {
+    "readyQuestion": " — ești pregătit pentru această experiență?",
+    "tagline": "Probează mai întâi, decide după.",
+    "skip": "Sari peste →"
+  },
+  "home": {
+    "newSeason": "SEZON NOU",
+    "seasonDesc": "Colecția Primăvară / Vară 2026",
+    "discoverCollection": "Descoperă Colecția",
+    "women": "FEMEI",
+    "men": "BĂRBAȚI",
+    "featured": "Recomandate"
+  },
+  "category": {
+    "showMore": "Arată mai mult",
+    "all": "Toate",
+    "topwear": "Topuri",
+    "bottomwear": "Pantaloni și fuste",
+    "outerwear": "Jachete și paltoane",
+    "accessories": "Accesorii"
+  },
+  "product": {
+    "notFound": "Produsul nu a fost găsit",
+    "backToHome": "Înapoi la pagina principală",
+    "home": "Acasă",
+    "women": "Femei",
+    "men": "Bărbați",
+    "color": "Culoare",
+    "size": "Mărime",
+    "tryOn": "PROBEAZĂ",
+    "addedToCart": "ADĂUGAT ÎN COȘ ✓",
+    "addToCart": "ADAUGĂ ÎN COȘ",
+    "productDetails": "Detalii produs",
+    "shippingInfo": "Informații livrare",
+    "shippingText": "Livrare standard: 2-4 zile lucrătoare. Livrare gratuită pentru comenzi peste {{threshold}}. Returnări și schimburi gratuite în 14 zile.",
+    "youMayAlsoLike": "S-ar putea să îți placă și"
+  },
+  "cart": {
+    "emptyTitle": "Coșul tău este gol",
+    "emptySubtitle": "Nu ai adăugat încă niciun produs în coș.",
+    "continueShopping": "Continuă cumpărăturile",
+    "title": "Coș de cumpărături",
+    "subtotal": "Subtotal",
+    "shipping": "Livrare",
+    "free": "Gratuit",
+    "total": "TOTAL",
+    "checkout": "Finalizează comanda"
+  },
+  "announcement": {
+    "freeShipping": "Livrare gratuită pentru comenzi peste {{threshold}}",
+    "newSeason": "Produsele noului sezon au sosit",
+    "freeReturn": "Returnare gratuită în 14 zile"
+  },
+  "footer": {
+    "tagline": "Probează mai întâi, decide după.",
+    "women": "Femei",
+    "men": "Bărbați",
+    "allRightsReserved": "Toate drepturile rezervate."
+  },
+  "nav": {
+    "women": "FEMEI",
+    "men": "BĂRBAȚI",
+    "cart": "COȘ"
+  },
+  "search": {
+    "title": "Caută",
+    "placeholder": "Sacou, Fustă, Cămașă...",
+    "noResults": "Nu s-au găsit rezultate"
+  },
+  "newsletter": {
+    "title": "Rămâi la curent",
+    "subtitle": "Abonează-te și primești 10% reducere",
+    "thanks": "Mulțumim!",
+    "couponText": "Codul tău de reducere de 10%:",
+    "emailPlaceholder": "Adresa ta de e-mail",
+    "subscribe": "Abonează-te"
+  },
+  "trust": {
+    "freeShipping": "Livrare gratuită",
+    "freeShippingSub": "Peste {{threshold}}",
+    "securePayment": "Plată securizată",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Returnare gratuită",
+    "freeReturnSub": "În 14 zile",
+    "support": "Suport 24/7",
+    "supportSub": "Mereu alături de tine"
+  },
+  "badge": {
+    "new": "Nou",
+    "bestseller": "Bestseller",
+    "sale": "20% Reducere"
+  },
+  "currency": "TL",
+  "locale": "ro-RO",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Sacou Oversized",
+      "description": "Sacou cu croială oversized. 65% poliester, 35% viscoză. Căptușit interior. Închidere cu un singur nasture. Buzunare frontale. Se recomandă curățarea chimică profesională."
+    },
+    "kadin-etek": {
+      "name": "Fustă Midi din Satin",
+      "description": "Fustă midi din satin. 100% satin din poliester. Talie elastică. Textură elegantă și siluetă fluidă. Se recomandă spălare delicată la 30°C."
+    },
+    "kadin-gomlek": {
+      "name": "Cămașă din In",
+      "description": "Cămașă din in. 100% in natural. Croială relaxată. Închidere cu nasturi în față. Detaliu cu mâneci suflecate. Spălare la 30°C, călcat la temperatură scăzută."
+    },
+    "kadin-pantolon": {
+      "name": "Pantaloni cu Pliuri",
+      "description": "Pantaloni evazați cu pliuri. 70% poliester, 28% viscoză, 2% elastan. Talie înaltă cu pliuri frontale. Se recomandă curățarea chimică."
+    },
+    "kadin-triko": {
+      "name": "Pulover din Cașmir",
+      "description": "Pulover din cașmir. 95% cașmir, 5% elastan. Atingere moale, tricotat fin. Guler rotund. Se recomandă curățarea chimică."
+    },
+    "kadin-bot": {
+      "name": "Cizmă din Piele cu Toc",
+      "description": "Cizmă din piele cu toc. 100% piele naturală. Vârf ascuțit, toc bloc de 7 cm. Căptușeală interioară din piele. Închidere cu fermoar. Îngrijire cu spray pentru piele."
+    },
+    "kadin-trench": {
+      "name": "Trenci Lung",
+      "description": "Trenci lung. 100% gabardină de bumbac. Brâu la talie. Închidere dublă cu nasturi. Rezistent la apă. Se recomandă curățarea chimică."
+    },
+    "kadin-bluz": {
+      "name": "Bluză din Mătase",
+      "description": "Bluză din mătase. 100% mătase naturală. Decolteu în V, mânecă lungă. Textură elegantă, ușor transparentă. Spălare manuală sau curățare chimică."
+    },
+    "kadin-kemer": {
+      "name": "Curea din Piele",
+      "description": "Curea din piele. 100% piele naturală. Croială subțire, cataramă minimalistă aurie. Detaliu cusut manual. Îngrijire cu cremă pentru piele."
+    },
+    "erkek-takim": {
+      "name": "Costum Slim Fit",
+      "description": "Costum slim fit. 55% lână, 45% poliester. Sacou cu un nasture, pantaloni cu croială slim. Sacou căptușit. Se recomandă curățarea chimică profesională."
+    },
+    "erkek-gomlek": {
+      "name": "Cămașă Oxford",
+      "description": "Cămașă Oxford. 100% bumbac cu țesătură Oxford. Guler cu nasturi. Regular fit. Spălare la 40°C, călcat la temperatură medie."
+    },
+    "erkek-chino": {
+      "name": "Pantaloni Chino",
+      "description": "Pantaloni chino. 98% bumbac, 2% elastan. Slim fit. Buzunare laterale și buzunare oblice la spate. Spălare la 30°C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Jachetă din Piele",
+      "description": "Jachetă din piele. 100% piele de miel naturală. Croială biker, hardware minimal. Finisaj negru mat. Se recomandă îngrijire profesională a pielii."
+    },
+    "erkek-kazak": {
+      "name": "Pulover din Lână Merino",
+      "description": "Pulover din lână merino. 100% lână merino extrafină. Guler rotund, tricotat fin. Spălare manuală, uscare orizontală."
+    },
+    "erkek-sort": {
+      "name": "Pantaloni Scurți Bermude din In",
+      "description": "Pantaloni scurți bermude din in. 100% in natural. Croială relaxată, lungime deasupra genunchiului. Talie elastică cu șnur. Spălare la 30°C."
+    },
+    "erkek-bomber": {
+      "name": "Jachetă Bomber",
+      "description": "Jachetă bomber. Exterior 100% nylon, căptușeală din poliester. Guler, manșete și tiv cu nervuri. Închidere cu fermoar frontal. Spălare delicată la 30°C."
+    },
+    "erkek-loafer": {
+      "name": "Mocasin din Piele Întoarsă",
+      "description": "Mocasin din piele întoarsă. 100% piele întoarsă naturală. Stil penny loafer, talpă din piele. Îngrijire cu perie pentru piele întoarsă."
+    },
+    "erkek-kemer": {
+      "name": "Curea din Piele",
+      "description": "Curea din piele. 100% piele full-grain naturală. Cataramă clasică cu știft, ton argintiu. Lucrat manual. Îngrijire cu cremă pentru piele."
+    }
+  },
+  "colors": {
+    "Siyah": "Negru",
+    "Beyaz": "Alb",
+    "Bej": "Bej",
+    "Gri": "Gri",
+    "Krem": "Crem",
+    "Sampanya": "Șampanie",
+    "Zeytin Yesili": "Verde Olive",
+    "Deve Tuyu": "Camel",
+    "Lacivert": "Bleumarin",
+    "Acik Mavi": "Albastru Deschis",
+    "Kahverengi": "Maro"
+  }
+}

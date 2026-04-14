@@ -1,11 +1,13 @@
 import { useLocation, useSearchParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import { getProductsByCategory, subcategories } from '../data/products'
+import { useTranslation } from 'react-i18next'
+import { getProductsByCategory, subcategoryKeys } from '../data/products'
 import ProductCard from '../components/ProductCard'
 import ScrollReveal from '../components/ScrollReveal'
 import PageTransition from '../components/PageTransition'
 
 export default function CategoryPage() {
+  const { t } = useTranslation()
   const location = useLocation()
   const category = location.pathname.replace('/', '')
   const [searchParams] = useSearchParams()
@@ -25,11 +27,11 @@ export default function CategoryPage() {
     <PageTransition>
       <div className="max-w-7xl mx-auto px-6 py-12">
         <h1 className="text-center text-3xl font-light tracking-[0.2em] uppercase mb-8">
-          {category === 'kadin' ? 'KADIN' : 'ERKEK'}
+          {category === 'kadin' ? t('home.women') : t('home.men')}
         </h1>
 
         <div className="flex justify-center gap-6 md:gap-10 mb-12 flex-wrap">
-          {subcategories.map(sub => (
+          {subcategoryKeys.map(sub => (
             <button
               key={sub.slug}
               onClick={() => setActiveFilter(sub.slug)}
@@ -39,7 +41,7 @@ export default function CategoryPage() {
                   : 'border-transparent text-brand-muted hover:text-brand-text'
               }`}
             >
-              {sub.label}
+              {t(sub.key)}
             </button>
           ))}
         </div>
@@ -55,7 +57,7 @@ export default function CategoryPage() {
         {filtered.length > 6 && (
           <div className="text-center mt-16">
             <button className="px-10 py-3 border border-emerald-500 text-emerald-500 text-xs font-medium tracking-[0.15em] uppercase hover:bg-emerald-600 hover:text-white transition-all">
-              Daha Fazla Goster
+              {t('category.showMore')}
             </button>
           </div>
         )}

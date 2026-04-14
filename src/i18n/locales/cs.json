@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Objevte zážitek virtuálního zkoušení",
+    "brandLabel": "Název vaší značky",
+    "brandPlaceholder": "Zadejte název značky...",
+    "start": "Začít"
+  },
+  "welcome": {
+    "readyQuestion": " — jste připraveni na zážitek?",
+    "tagline": "Nejdřív vyzkoušej, pak se rozhoduj.",
+    "skip": "Přeskočit →"
+  },
+  "home": {
+    "newSeason": "NOVÁ SEZÓNA",
+    "seasonDesc": "Kolekce jaro / léto 2026",
+    "discoverCollection": "Prozkoumat kolekci",
+    "women": "ŽENY",
+    "men": "MUŽI",
+    "featured": "Doporučené"
+  },
+  "category": {
+    "showMore": "Zobrazit více",
+    "all": "Vše",
+    "topwear": "Vrchní díly",
+    "bottomwear": "Spodní díly",
+    "outerwear": "Svrchní oblečení",
+    "accessories": "Doplňky"
+  },
+  "product": {
+    "notFound": "Produkt nenalezen",
+    "backToHome": "Zpět na hlavní stránku",
+    "home": "Domů",
+    "women": "Ženy",
+    "men": "Muži",
+    "color": "Barva",
+    "size": "Velikost",
+    "tryOn": "VYZKOUŠET",
+    "addedToCart": "PŘIDÁNO DO KOŠÍKU ✓",
+    "addToCart": "PŘIDAT DO KOŠÍKU",
+    "productDetails": "Podrobnosti o produktu",
+    "shippingInfo": "Informace o dopravě",
+    "shippingText": "Standardní doručení: 2–4 pracovní dny. Doprava zdarma pro objednávky nad {{threshold}}. Vrácení a výměna zdarma do 14 dnů.",
+    "youMayAlsoLike": "Mohlo by se vám také líbit"
+  },
+  "cart": {
+    "emptyTitle": "Váš košík je prázdný",
+    "emptySubtitle": "Zatím jste do košíku nepřidali žádné zboží.",
+    "continueShopping": "Pokračovat v nákupu",
+    "title": "Nákupní košík",
+    "subtotal": "Mezisoučet",
+    "shipping": "Doprava",
+    "free": "Zdarma",
+    "total": "CELKEM",
+    "checkout": "Dokončit objednávku"
+  },
+  "announcement": {
+    "freeShipping": "Doprava zdarma pro objednávky nad {{threshold}}",
+    "newSeason": "Produkty nové sezóny jsou tady",
+    "freeReturn": "Vrácení zdarma do 14 dnů"
+  },
+  "footer": {
+    "tagline": "Nejdřív vyzkoušej, pak se rozhoduj.",
+    "women": "Ženy",
+    "men": "Muži",
+    "allRightsReserved": "Všechna práva vyhrazena."
+  },
+  "nav": {
+    "women": "ŽENY",
+    "men": "MUŽI",
+    "cart": "KOŠÍK"
+  },
+  "search": {
+    "title": "Hledat",
+    "placeholder": "Sako, Sukně, Košile...",
+    "noResults": "Žádné výsledky nenalezeny"
+  },
+  "newsletter": {
+    "title": "Buďte v obraze",
+    "subtitle": "Přihlaste se k odběru a získejte 10% slevu",
+    "thanks": "Děkujeme!",
+    "couponText": "Váš slevový kód 10 %:",
+    "emailPlaceholder": "Vaše e-mailová adresa",
+    "subscribe": "Odebírat"
+  },
+  "trust": {
+    "freeShipping": "Doprava zdarma",
+    "freeShippingSub": "Nad {{threshold}}",
+    "securePayment": "Bezpečná platba",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Vrácení zdarma",
+    "freeReturnSub": "Do 14 dnů",
+    "support": "Podpora 24/7",
+    "supportSub": "Vždy tu pro vás"
+  },
+  "badge": {
+    "new": "Novinka",
+    "bestseller": "Bestseller",
+    "sale": "Sleva 20 %"
+  },
+  "currency": "TL",
+  "locale": "cs-CZ",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Oversized sako",
+      "description": "Sako oversized střihu. 65 % polyester, 35 % viskóza. Podšívka. Jednoknoflíkové zapínání. Přední kapsy. Doporučuje se profesionální chemické čištění."
+    },
+    "kadin-etek": {
+      "name": "Saténová midi sukně",
+      "description": "Midi sukně ze saténu. 100 % polyesterový satén. Elastický pas. Elegantní textura a splývavá silueta. Doporučuje se šetrné praní při 30 °C."
+    },
+    "kadin-gomlek": {
+      "name": "Lněná košile",
+      "description": "Lněná košile. 100 % přírodní len. Volný střih. Zapínání na knoflíky. Detail podkasaných rukávů. Praní při 30 °C, žehlení na nízkou teplotu."
+    },
+    "kadin-pantolon": {
+      "name": "Kalhoty s řasením",
+      "description": "Široké kalhoty s předními záhyby. 70 % polyester, 28 % viskóza, 2 % elastan. Vysoký pas s předními záhyby. Doporučuje se chemické čištění."
+    },
+    "kadin-triko": {
+      "name": "Kašmírový svetr",
+      "description": "Kašmírový svetr. 95 % kašmír, 5 % elastan. Jemný na dotek, jemné pletení. Kulatý výstřih. Doporučuje se chemické čištění."
+    },
+    "kadin-bot": {
+      "name": "Kožená kotníková bota na podpatku",
+      "description": "Kožená kotníková bota na podpatku. 100 % pravá kůže. Špičatá špička, blokový podpatek 7 cm. Kožená vnitřní podšívka. Zipové zapínání. Ošetřujte sprejem na kůži."
+    },
+    "kadin-trench": {
+      "name": "Dlouhý trenčkot",
+      "description": "Dlouhý trenčkot. 100 % bavlněný gabardén. Pásek v pase. Dvouřadové zapínání na knoflíky. Voděodolný. Doporučuje se chemické čištění."
+    },
+    "kadin-bluz": {
+      "name": "Hedvábná halenka",
+      "description": "Hedvábná halenka. 100 % přírodní hedvábí. V-výstřih, dlouhý rukáv. Elegantní textura, mírně průhledná. Ruční praní nebo chemické čištění."
+    },
+    "kadin-kemer": {
+      "name": "Kožený pásek",
+      "description": "Kožený pásek. 100 % pravá kůže. Slim střih, minimalistická přezka zlaté barvy. Detail ručního prošití. Ošetřujte krémem na kůži."
+    },
+    "erkek-takim": {
+      "name": "Oblek slim fit",
+      "description": "Oblek slim fit. 55 % vlna, 45 % polyester. Sako na jeden knoflík, úzké kalhoty. Podšívkové sako. Doporučuje se profesionální chemické čištění."
+    },
+    "erkek-gomlek": {
+      "name": "Oxford košile",
+      "description": "Oxford košile. 100 % bavlna oxfordská vazba. Límec se zapínáním na knoflíky. Regular fit. Praní při 40 °C, žehlení na střední teplotu."
+    },
+    "erkek-chino": {
+      "name": "Chino kalhoty",
+      "description": "Chino kalhoty. 98 % bavlna, 2 % elastan. Slim fit. Boční kapsy a zadní paspoálové kapsy. Praní při 30 °C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Kožená bunda",
+      "description": "Kožená bunda. 100 % pravá jehněčí kůže. Biker střih, minimální kovové prvky. Matný černý povrch. Doporučuje se profesionální péče o kůži."
+    },
+    "erkek-kazak": {
+      "name": "Svetr z merinové vlny",
+      "description": "Svetr z merinové vlny. 100 % extrajemná merinová vlna. Kulatý výstřih, jemné pletení. Ruční praní, sušení naplocho."
+    },
+    "erkek-sort": {
+      "name": "Lněné bermudské šortky",
+      "description": "Lněné bermudské šortky. 100 % přírodní len. Volný střih, délka nad kolena. Elastický pas se stahovací šňůrkou. Praní při 30 °C."
+    },
+    "erkek-bomber": {
+      "name": "Bomber bunda",
+      "description": "Bomber bunda. Vrchní materiál 100 % nylon, podšívka polyester. Žebrované límce, manžety a lem. Zipové zapínání vpředu. Šetrné praní při 30 °C."
+    },
+    "erkek-loafer": {
+      "name": "Semiš mokasíny",
+      "description": "Semiš mokasíny. 100 % pravý semiš. Styl penny loafer, kožená podrážka. Ošetřujte kartáčem na semiš."
+    },
+    "erkek-kemer": {
+      "name": "Kožený pásek",
+      "description": "Kožený pásek. 100 % pravá celozrnná kůže. Klasická kolíková přezka, stříbrný tón. Ručně zpracované. Ošetřujte krémem na kůži."
+    }
+  },
+  "colors": {
+    "Siyah": "Černá",
+    "Beyaz": "Bílá",
+    "Bej": "Béžová",
+    "Gri": "Šedá",
+    "Krem": "Krémová",
+    "Sampanya": "Šampaňská",
+    "Zeytin Yesili": "Olivová",
+    "Deve Tuyu": "Velbloudí",
+    "Lacivert": "Námořnická modrá",
+    "Acik Mavi": "Světle modrá",
+    "Kahverengi": "Hnědá"
+  }
+}

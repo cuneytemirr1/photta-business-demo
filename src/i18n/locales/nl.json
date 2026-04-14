@@ -1,0 +1,190 @@
+{
+  "entry": {
+    "title": "VITRIN",
+    "subtitle": "Ontdek de virtuele paskamer-ervaring",
+    "brandLabel": "Naam van je merk",
+    "brandPlaceholder": "Voer de naam van je merk in...",
+    "start": "Starten"
+  },
+  "welcome": {
+    "readyQuestion": " — ben je klaar voor de ervaring?",
+    "tagline": "Eerst passen, dan beslissen.",
+    "skip": "Overslaan →"
+  },
+  "home": {
+    "newSeason": "NIEUW SEIZOEN",
+    "seasonDesc": "Lente / Zomer Collectie 2026",
+    "discoverCollection": "Ontdek de Collectie",
+    "women": "DAMES",
+    "men": "HEREN",
+    "featured": "Uitgelicht"
+  },
+  "category": {
+    "showMore": "Meer tonen",
+    "all": "Alles",
+    "topwear": "Tops",
+    "bottomwear": "Broeken en Rokken",
+    "outerwear": "Bovenkleding",
+    "accessories": "Accessoires"
+  },
+  "product": {
+    "notFound": "Product niet gevonden",
+    "backToHome": "Terug naar Home",
+    "home": "Home",
+    "women": "Dames",
+    "men": "Heren",
+    "color": "Kleur",
+    "size": "Maat",
+    "tryOn": "VIRTUEEL PASSEN",
+    "addedToCart": "TOEGEVOEGD AAN WINKELWAGEN ✓",
+    "addToCart": "TOEVOEGEN AAN WINKELWAGEN",
+    "productDetails": "Productdetails",
+    "shippingInfo": "Verzendinfo",
+    "shippingText": "Standaard levering: 2-4 werkdagen. Gratis verzending bij bestellingen boven {{threshold}}. Retourneren en ruilen is gratis binnen 14 dagen.",
+    "youMayAlsoLike": "Misschien Vind Je Dit Ook Leuk"
+  },
+  "cart": {
+    "emptyTitle": "Je Winkelwagen is Leeg",
+    "emptySubtitle": "Je hebt nog geen artikelen aan je winkelwagen toegevoegd.",
+    "continueShopping": "Doorgaan met Winkelen",
+    "title": "Winkelwagen",
+    "subtotal": "Subtotaal",
+    "shipping": "Verzending",
+    "free": "Gratis",
+    "total": "TOTAAL",
+    "checkout": "Bestelling Afronden"
+  },
+  "announcement": {
+    "freeShipping": "Gratis verzending bij bestellingen boven {{threshold}}",
+    "newSeason": "Nieuwe seizoensproducten zijn er",
+    "freeReturn": "Gratis retour binnen 14 dagen"
+  },
+  "footer": {
+    "tagline": "Eerst passen, dan beslissen.",
+    "women": "Dames",
+    "men": "Heren",
+    "allRightsReserved": "Alle rechten voorbehouden."
+  },
+  "nav": {
+    "women": "DAMES",
+    "men": "HEREN",
+    "cart": "WINKELWAGEN"
+  },
+  "search": {
+    "title": "Zoeken",
+    "placeholder": "Blazer, Rok, Blouse...",
+    "noResults": "Geen resultaten gevonden"
+  },
+  "newsletter": {
+    "title": "Blijf op de hoogte",
+    "subtitle": "Abonneer je en krijg 10% korting",
+    "thanks": "Bedankt!",
+    "couponText": "Jouw kortingscode van 10%:",
+    "emailPlaceholder": "Jouw e-mailadres",
+    "subscribe": "Abonneren"
+  },
+  "trust": {
+    "freeShipping": "Gratis Verzending",
+    "freeShippingSub": "Boven {{threshold}}",
+    "securePayment": "Veilig Betalen",
+    "securePaymentSub": "256-bit SSL",
+    "freeReturn": "Gratis Retour",
+    "freeReturnSub": "Binnen 14 dagen",
+    "support": "24/7 Klantenservice",
+    "supportSub": "Altijd voor je klaar"
+  },
+  "badge": {
+    "new": "Nieuw",
+    "bestseller": "Bestseller",
+    "sale": "20% Korting"
+  },
+  "currency": "TL",
+  "locale": "nl-NL",
+  "productData": {
+    "kadin-blazer": {
+      "name": "Oversized Blazer",
+      "description": "Oversized blazer met losse pasvorm. 65% polyester, 35% viscose. Gevoerde binnenkant. Sluiting met één knoop. Voorste zakken. Professioneel stomerij aanbevolen."
+    },
+    "kadin-etek": {
+      "name": "Satijnen Midi-rok",
+      "description": "Midi-rok in satijn. 100% polyester satijn. Elastische taille. Elegante textuur en vloeiende silhouet. Voorzichtig wassen op 30°C aanbevolen."
+    },
+    "kadin-gomlek": {
+      "name": "Linnen Blouse",
+      "description": "Linnen blouse. 100% natuurlijk linnen. Relaxte pasvorm. Knoopsluiting aan de voorkant. Oprolbare mouwdetail. Wassen op 30°C, strijken op lage temperatuur."
+    },
+    "kadin-pantolon": {
+      "name": "Geplooide Broek",
+      "description": "Geplooide wijdbeenbroek. 70% polyester, 28% viscose, 2% elastaan. Hoge taille met voorste plooien. Stomerij aanbevolen."
+    },
+    "kadin-triko": {
+      "name": "Kasjmier Trui",
+      "description": "Kasjmier trui. 95% kasjmier, 5% elastaan. Zacht aanvoelend, fijn gebreid. Ronde hals. Stomerij aanbevolen."
+    },
+    "kadin-bot": {
+      "name": "Leren Laars met Hak",
+      "description": "Leren laars met hak. 100% echt leer. Puntige neus, 7 cm blokhak. Lederen binnenvoering. Ritssluiting. Reinigen met leeronderhoudsspray."
+    },
+    "kadin-trench": {
+      "name": "Lange Trenchcoat",
+      "description": "Lange trenchcoat. 100% katoenen gabardine. Ceintuur op de taille. Dubbele rij knopen. Waterafstotend. Stomerij aanbevolen."
+    },
+    "kadin-bluz": {
+      "name": "Zijden Blouse",
+      "description": "Zijden blouse. 100% natuurlijke zijde. V-hals, lange mouwen. Elegante textuur, licht doorschijnend. Met de hand wassen of stomerij."
+    },
+    "kadin-kemer": {
+      "name": "Leren Riem",
+      "description": "Leren riem. 100% echt leer. Slanke pasvorm, minimalistische gesp in goudtint. Met de hand gestikt detail. Onderhouden met leercrème."
+    },
+    "erkek-takim": {
+      "name": "Slim Fit Kostuum",
+      "description": "Slim fit kostuum. 55% wol, 45% polyester. Colbert met één knoop, slim leg broek. Gevoerd colbert. Professioneel stomerij aanbevolen."
+    },
+    "erkek-gomlek": {
+      "name": "Oxford Overhemd",
+      "description": "Oxford overhemd. 100% katoen Oxford weefsel. Button-down kraag. Regular fit. Wassen op 40°C, strijken op middelhoge temperatuur."
+    },
+    "erkek-chino": {
+      "name": "Chino Broek",
+      "description": "Chino broek. 98% katoen, 2% elastaan. Slim fit. Zijzakken en achterzakken met paspel. Wassen op 30°C."
+    },
+    "erkek-deri-ceket": {
+      "name": "Leren Jas",
+      "description": "Leren jas. 100% echt lamsleer. Biker snit, minimale hardware. Matte zwarte afwerking. Professioneel leeronderhoud aanbevolen."
+    },
+    "erkek-kazak": {
+      "name": "Merino Wollen Trui",
+      "description": "Merino wollen trui. 100% extra-fijn merino wol. Ronde hals, fijn gebreid. Met de hand wassen, liggend drogen."
+    },
+    "erkek-sort": {
+      "name": "Linnen Bermuda Shorts",
+      "description": "Linnen bermuda shorts. 100% natuurlijk linnen. Relaxte pasvorm, lengte boven de knie. Elastische taille met trekkoord. Wassen op 30°C."
+    },
+    "erkek-bomber": {
+      "name": "Bomberjack",
+      "description": "Bomberjack. 100% nylon buitenkant, polyester voering. Geribbelde kraag, manchetten en zoom. Rits aan de voorkant. Voorzichtig wassen op 30°C."
+    },
+    "erkek-loafer": {
+      "name": "Suède Loafer",
+      "description": "Suède loafer. 100% echt suède leer. Penny loafer stijl, lederen zool. Onderhouden met suède borstel."
+    },
+    "erkek-kemer": {
+      "name": "Leren Riem",
+      "description": "Leren riem. 100% echt volnerf leer. Klassieke pen gesp, zilvertint. Handgemaakt. Onderhouden met leercrème."
+    }
+  },
+  "colors": {
+    "Siyah": "Zwart",
+    "Beyaz": "Wit",
+    "Bej": "Beige",
+    "Gri": "Grijs",
+    "Krem": "Crème",
+    "Sampanya": "Champagne",
+    "Zeytin Yesili": "Olijfgroen",
+    "Deve Tuyu": "Camel",
+    "Lacivert": "Marineblauw",
+    "Acik Mavi": "Lichtblauw",
+    "Kahverengi": "Bruin"
+  }
+}
