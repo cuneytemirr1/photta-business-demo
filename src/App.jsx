@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation, Navigate } from 'react-router-dom'
+import { Routes, Route, useLocation, Navigate, Outlet } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { useState } from 'react'
 import { useBrand } from './context/BrandContext'
@@ -15,26 +15,25 @@ import SearchOverlay from './components/SearchOverlay'
 import TryOnHighlight from './components/TryOnHighlight'
 import usePhotta from './hooks/usePhotta'
 
-function Layout({ children }) {
+function ShellLayout() {
   const [searchOpen, setSearchOpen] = useState(false)
+  const { brandName } = useBrand()
   usePhotta()
+
+  if (!brandName) return <Navigate to="/" replace />
 
   return (
     <>
       <AnnouncementBar />
       <Header onSearchOpen={() => setSearchOpen(true)} />
       {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
-      <main className="min-h-screen">{children}</main>
+      <main className="min-h-screen">
+        <Outlet />
+      </main>
       <Footer />
       <TryOnHighlight />
     </>
   )
-}
-
-function ProtectedRoute({ children }) {
-  const { brandName } = useBrand()
-  if (!brandName) return <Navigate to="/" replace />
-  return children
 }
 
 export default function App() {
@@ -45,11 +44,13 @@ export default function App() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<EntryPage />} />
         <Route path="/welcome" element={<WelcomePage />} />
-        <Route path="/home" element={<ProtectedRoute><Layout><HomePage /></Layout></ProtectedRoute>} />
-        <Route path="/kadin" element={<ProtectedRoute><Layout><CategoryPage /></Layout></ProtectedRoute>} />
-        <Route path="/erkek" element={<ProtectedRoute><Layout><CategoryPage /></Layout></ProtectedRoute>} />
-        <Route path="/urun/:slug" element={<ProtectedRoute><Layout><ProductPage /></Layout></ProtectedRoute>} />
-        <Route path="/sepet" element={<ProtectedRoute><Layout><CartPage /></Layout></ProtectedRoute>} />
+        <Route element={<ShellLayout />}>
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/kadin" element={<CategoryPage />} />
+          <Route path="/erkek" element={<CategoryPage />} />
+          <Route path="/urun/:slug" element={<ProductPage />} />
+          <Route path="/sepet" element={<CartPage />} />
+        </Route>
       </Routes>
     </AnimatePresence>
   )

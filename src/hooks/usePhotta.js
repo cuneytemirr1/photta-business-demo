@@ -1,15 +1,14 @@
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
+let initialized = false
+
 export default function usePhotta() {
-  const scriptRef = useRef(null)
   const { i18n } = useTranslation()
 
   useEffect(() => {
-    if (scriptRef.current) {
-      scriptRef.current.remove()
-      scriptRef.current = null
-    }
+    if (initialized) return
+    initialized = true
 
     const js = document.createElement('script')
     js.async = true
@@ -18,13 +17,5 @@ export default function usePhotta() {
     js.setAttribute('data-product-type', 'apparel')
     js.setAttribute('data-lang', i18n.language || 'en')
     document.head.appendChild(js)
-    scriptRef.current = js
-
-    return () => {
-      if (scriptRef.current) {
-        scriptRef.current.remove()
-        scriptRef.current = null
-      }
-    }
   }, [i18n.language])
 }
