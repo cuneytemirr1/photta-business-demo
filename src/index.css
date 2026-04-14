@@ -3,12 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
 @theme {
-  --color-emerald-50: #ECFDF5;
-  --color-emerald-100: #D1FAE5;
-  --color-emerald-DEFAULT: #10B981;
-  --color-emerald-600: #059669;
-  --color-emerald-700: #047857;
-
   --color-brand-bg: #FAFAF7;
   --color-brand-card: #F5F5F0;
   --color-brand-text: #1A1A1A;

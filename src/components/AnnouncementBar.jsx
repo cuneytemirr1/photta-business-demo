@@ -21,7 +21,7 @@ export default function AnnouncementBar() {
   if (!visible) return null
 
   return (
-    <div className="bg-emerald text-white text-xs tracking-[0.1em] py-2.5 relative">
+    <div className="bg-emerald-500 text-white text-xs tracking-[0.1em] py-2.5 relative">
       <div className="text-center font-light overflow-hidden h-4">
         <p key={current} className="animate-fade-in">{messages[current]}</p>
       </div>

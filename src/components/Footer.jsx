@@ -32,7 +32,7 @@ export default function Footer() {
 
           <div className="flex justify-center gap-6 mt-8">
             {['Instagram', 'X', 'Pinterest', 'TikTok'].map(name => (
-              <a key={name} href="#" className="text-brand-muted hover:text-emerald transition-colors">
+              <a key={name} href="#" className="text-brand-muted hover:text-emerald-500 transition-colors">
                 <span className="text-xs tracking-wider">{name}</span>
               </a>
             ))}

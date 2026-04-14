@@ -30,7 +30,7 @@ export default function ProductPage() {
       <PageTransition>
         <div className="text-center py-20">
           <p className="text-lg font-light text-brand-muted">Urun bulunamadi</p>
-          <Link to="/home" className="text-emerald text-sm mt-4 inline-block">Ana Sayfaya Don</Link>
+          <Link to="/home" className="text-emerald-500 text-sm mt-4 inline-block">Ana Sayfaya Don</Link>
         </div>
       </PageTransition>
     )
@@ -145,7 +145,7 @@ export default function ProductPage() {
             {/* Photta Try-On */}
             <button
               data-photta-trigger
-              className="w-full py-4 mb-3 border border-emerald text-emerald text-xs font-medium tracking-[0.15em] uppercase hover:bg-emerald hover:text-white transition-all flex items-center justify-center gap-2"
+              className="w-full py-4 mb-3 border border-emerald-500 text-emerald-500 text-xs font-medium tracking-[0.15em] uppercase hover:bg-emerald-600 hover:text-white transition-all flex items-center justify-center gap-2"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
@@ -159,7 +159,7 @@ export default function ProductPage() {
               disabled={selectedSize === null && !addedFeedback}
               className={`w-full py-4 text-xs font-medium tracking-[0.15em] uppercase transition-colors duration-300 ${
                 addedFeedback
-                  ? 'bg-emerald text-white'
+                  ? 'bg-emerald-500 text-white'
                   : 'bg-brand-text text-white hover:bg-black disabled:opacity-30 disabled:cursor-not-allowed'
               }`}
             >
@@ -175,7 +175,7 @@ export default function ProductPage() {
                 <div key={item.key} className="border-b border-brand-border">
                   <button
                     onClick={() => setAccordion(accordion === item.key ? null : item.key)}
-                    className="w-full flex justify-between items-center py-4 text-xs font-medium tracking-[0.1em] uppercase hover:text-emerald transition-colors"
+                    className="w-full flex justify-between items-center py-4 text-xs font-medium tracking-[0.1em] uppercase hover:text-emerald-500 transition-colors"
                   >
                     {item.label}
                     <span className={`text-lg font-light transition-transform duration-300 ${accordion === item.key ? 'rotate-45' : ''}`}>+</span>

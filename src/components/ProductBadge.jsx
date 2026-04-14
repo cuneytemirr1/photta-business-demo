@@ -1,6 +1,6 @@
 export default function ProductBadge({ type }) {
   const styles = {
-    new: 'bg-emerald text-white',
+    new: 'bg-emerald-500 text-white',
     bestseller: 'bg-brand-text text-white',
     sale: 'bg-red-500 text-white',
   }

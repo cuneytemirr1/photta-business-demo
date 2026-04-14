@@ -20,7 +20,7 @@ export default function EntryPage() {
       <form onSubmit={handleSubmit} className="text-center max-w-md w-full px-8">
         <div className="mb-14">
           <h1 className="text-3xl font-light tracking-[0.25em] text-brand-text mb-3">VITRIN</h1>
-          <div className="w-8 h-px bg-emerald mx-auto mb-4"></div>
+          <div className="w-8 h-px bg-emerald-500 mx-auto mb-4"></div>
           <p className="text-sm text-brand-muted font-light tracking-wider">Sanal deneme deneyimini kesfet</p>
         </div>
 
@@ -33,7 +33,7 @@ export default function EntryPage() {
             value={input}
             onChange={e => setInput(e.target.value)}
             placeholder="Marka adini girin..."
-            className="w-full px-0 py-3 text-center text-lg font-light tracking-wider border-0 border-b-2 border-brand-border bg-transparent focus:border-emerald focus:outline-none transition-colors placeholder:text-brand-border"
+            className="w-full px-0 py-3 text-center text-lg font-light tracking-wider border-0 border-b-2 border-brand-border bg-transparent focus:border-emerald-500 focus:outline-none transition-colors placeholder:text-brand-border"
             autoFocus
           />
         </div>

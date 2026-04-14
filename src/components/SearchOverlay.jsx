@@ -31,7 +31,7 @@ export default function SearchOverlay({ onClose }) {
             value={query}
             onChange={e => setQuery(e.target.value)}
             placeholder="Blazer, Etek, Gomlek..."
-            className="w-full pl-8 py-3 border-0 border-b-2 border-brand-border bg-transparent focus:border-emerald focus:outline-none text-lg font-light"
+            className="w-full pl-8 py-3 border-0 border-b-2 border-brand-border bg-transparent focus:border-emerald-500 focus:outline-none text-lg font-light"
             autoFocus
           />
         </div>

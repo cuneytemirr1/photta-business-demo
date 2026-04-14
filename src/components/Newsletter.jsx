@@ -19,7 +19,7 @@ export default function Newsletter() {
 
           {submitted ? (
             <div className="py-4">
-              <p className="text-sm text-emerald font-medium">Tesekkurler!</p>
+              <p className="text-sm text-emerald-500 font-medium">Tesekkurler!</p>
               <p className="text-xs text-brand-muted mt-2">%10 indirim kodunuz: <strong>HOSGELDIN10</strong></p>
             </div>
           ) : (
@@ -29,11 +29,11 @@ export default function Newsletter() {
                 value={email}
                 onChange={e => setEmail(e.target.value)}
                 placeholder="E-posta adresiniz"
-                className="flex-1 px-4 py-3 text-sm font-light border border-brand-border border-r-0 bg-white focus:border-emerald focus:outline-none"
+                className="flex-1 px-4 py-3 text-sm font-light border border-brand-border border-r-0 bg-white focus:border-emerald-500 focus:outline-none"
               />
               <button
                 type="submit"
-                className="px-8 py-3 bg-emerald text-white text-xs font-medium tracking-[0.1em] uppercase hover:bg-emerald-600 transition-colors"
+                className="px-8 py-3 bg-emerald-500 text-white text-xs font-medium tracking-[0.1em] uppercase hover:bg-emerald-600 transition-colors"
               >
                 Abone Ol
               </button>

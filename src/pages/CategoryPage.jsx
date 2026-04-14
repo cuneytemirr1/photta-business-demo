@@ -35,7 +35,7 @@ export default function CategoryPage() {
               onClick={() => setActiveFilter(sub.slug)}
               className={`text-xs font-normal tracking-[0.1em] uppercase pb-1 border-b-2 transition-all ${
                 activeFilter === sub.slug
-                  ? 'border-emerald text-brand-text'
+                  ? 'border-emerald-500 text-brand-text'
                   : 'border-transparent text-brand-muted hover:text-brand-text'
               }`}
             >
@@ -54,7 +54,7 @@ export default function CategoryPage() {
 
         {filtered.length > 6 && (
           <div className="text-center mt-16">
-            <button className="px-10 py-3 border border-emerald text-emerald text-xs font-medium tracking-[0.15em] uppercase hover:bg-emerald hover:text-white transition-all">
+            <button className="px-10 py-3 border border-emerald-500 text-emerald-500 text-xs font-medium tracking-[0.15em] uppercase hover:bg-emerald-600 hover:text-white transition-all">
               Daha Fazla Goster
             </button>
           </div>

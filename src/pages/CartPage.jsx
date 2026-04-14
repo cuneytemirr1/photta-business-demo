@@ -15,7 +15,7 @@ export default function CartPage() {
           <p className="text-sm text-brand-muted mb-8">Henuz sepetinize urun eklemediniz.</p>
           <Link
             to="/home"
-            className="inline-block px-10 py-4 bg-emerald text-white text-xs font-medium tracking-[0.15em] uppercase hover:bg-emerald-600 transition-colors"
+            className="inline-block px-10 py-4 bg-emerald-500 text-white text-xs font-medium tracking-[0.15em] uppercase hover:bg-emerald-600 transition-colors"
           >
             Alisverise Devam Et
           </Link>
@@ -77,7 +77,7 @@ export default function CartPage() {
             </div>
             <div className="flex justify-between py-2 text-sm">
               <span>Kargo</span>
-              <span className="text-emerald">{totalPrice >= 500 ? 'Ucretsiz' : '29,90 TL'}</span>
+              <span className="text-emerald-500">{totalPrice >= 500 ? 'Ucretsiz' : '29,90 TL'}</span>
             </div>
             <div className="h-px bg-brand-border my-3" />
             <div className="flex justify-between py-2 text-sm font-semibold tracking-wider">

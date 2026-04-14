@@ -15,7 +15,7 @@ export default function TrustBadges() {
         {badges.map((badge, i) => (
           <ScrollReveal key={i} delay={i * 0.1}>
             <div className="text-center">
-              <badge.icon size={28} strokeWidth={1} className="mx-auto mb-3 text-emerald" />
+              <badge.icon size={28} strokeWidth={1} className="mx-auto mb-3 text-emerald-500" />
               <p className="text-xs font-medium tracking-wider uppercase">{badge.text}</p>
               <p className="text-[11px] text-brand-muted mt-1">{badge.sub}</p>
             </div>

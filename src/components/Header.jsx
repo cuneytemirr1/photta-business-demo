@@ -35,13 +35,13 @@ export default function Header({ onSearchOpen }) {
           </nav>
 
           <div className="flex items-center gap-5">
-            <button onClick={onSearchOpen} className="text-brand-text hover:text-emerald transition-colors">
+            <button onClick={onSearchOpen} className="text-brand-text hover:text-emerald-500 transition-colors">
               <Search size={18} strokeWidth={1.5} />
             </button>
-            <Link to="/sepet" className="text-brand-text hover:text-emerald transition-colors relative">
+            <Link to="/sepet" className="text-brand-text hover:text-emerald-500 transition-colors relative">
               <ShoppingBag size={20} strokeWidth={1.5} />
               {totalItems > 0 && (
-                <span className="absolute -top-2.5 -right-2.5 w-5 h-5 bg-emerald text-white text-[11px] font-medium rounded-full flex items-center justify-center animate-bounce-once">
+                <span className="absolute -top-2.5 -right-2.5 w-5 h-5 bg-emerald-500 text-white text-[11px] font-medium rounded-full flex items-center justify-center animate-bounce-once">
                   {totalItems}
                 </span>
               )}
