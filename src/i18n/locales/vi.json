@@ -186,5 +186,8 @@
     "Lacivert": "Xanh Navy",
     "Acik Mavi": "Xanh Nhạt",
     "Kahverengi": "Nâu"
-  }
+  },
+  "highlight.title": "Thử đồ ảo!",
+  "highlight.description": "Nhấn nút này để xem bất kỳ sản phẩm nào trông như thế nào trên bạn bằng AI.",
+  "highlight.dismiss": "Đã hiểu!"
 }

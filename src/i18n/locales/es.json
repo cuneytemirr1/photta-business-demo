@@ -186,5 +186,8 @@
     "Lacivert": "Azul marino",
     "Acik Mavi": "Azul claro",
     "Kahverengi": "Marrón"
-  }
+  },
+  "highlight.title": "¡Pruébatelo virtualmente!",
+  "highlight.description": "Toca este botón para ver cómo te queda cualquier producto usando IA.",
+  "highlight.dismiss": "¡Entendido!"
 }

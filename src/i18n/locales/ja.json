@@ -186,5 +186,8 @@
     "Lacivert": "ネイビー",
     "Acik Mavi": "ライトブルー",
     "Kahverengi": "ブラウン"
-  }
+  },
+  "highlight.title": "バーチャル試着！",
+  "highlight.description": "このボタンをタップすると、AIであらゆる商品の着用イメージを確認できます。",
+  "highlight.dismiss": "了解！"
 }

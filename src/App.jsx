@@ -12,9 +12,13 @@ import AnnouncementBar from './components/AnnouncementBar'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import SearchOverlay from './components/SearchOverlay'
+import TryOnHighlight from './components/TryOnHighlight'
+import usePhotta from './hooks/usePhotta'
 
 function Layout({ children }) {
   const [searchOpen, setSearchOpen] = useState(false)
+  usePhotta()
+
   return (
     <>
       <AnnouncementBar />
@@ -22,6 +26,7 @@ function Layout({ children }) {
       {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
       <main className="min-h-screen">{children}</main>
       <Footer />
+      <TryOnHighlight />
     </>
   )
 }

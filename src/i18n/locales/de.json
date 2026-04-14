@@ -186,5 +186,8 @@
     "Lacivert": "Marineblau",
     "Acik Mavi": "Hellblau",
     "Kahverengi": "Braun"
-  }
+  },
+  "highlight.title": "Virtuell anprobieren!",
+  "highlight.description": "Tippen Sie auf diese Schaltfläche, um per KI zu sehen, wie jedes Produkt an Ihnen aussieht.",
+  "highlight.dismiss": "Verstanden!"
 }

@@ -186,5 +186,8 @@
     "Lacivert": "深蓝色",
     "Acik Mavi": "浅蓝色",
     "Kahverengi": "棕色"
-  }
+  },
+  "highlight.title": "虚拟试穿！",
+  "highlight.description": "点击此按钮，用AI查看任何商品穿在您身上的效果。",
+  "highlight.dismiss": "知道了！"
 }

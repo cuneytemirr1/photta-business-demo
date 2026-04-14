@@ -186,5 +186,8 @@
     "Lacivert": "กรมท่า",
     "Acik Mavi": "ฟ้าอ่อน",
     "Kahverengi": "น้ำตาล"
-  }
+  },
+  "highlight.title": "ลองสวมใส่เสมือนจริง!",
+  "highlight.description": "แตะปุ่มนี้เพื่อดูว่าสินค้าใดก็ตามจะดูเป็นอย่างไรเมื่อสวมใส่ด้วย AI",
+  "highlight.dismiss": "เข้าใจแล้ว!"
 }

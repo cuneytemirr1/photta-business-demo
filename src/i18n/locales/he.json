@@ -186,5 +186,8 @@
     "Lacivert": "כחול נייבי",
     "Acik Mavi": "תכלת",
     "Kahverengi": "חום"
-  }
+  },
+  "highlight.title": "נסה וירטואלית!",
+  "highlight.description": "לחץ על כפתור זה כדי לראות איך כל מוצר נראה עליך בעזרת AI.",
+  "highlight.dismiss": "הבנתי!"
 }

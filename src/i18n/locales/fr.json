@@ -186,5 +186,8 @@
     "Lacivert": "Marine",
     "Acik Mavi": "Bleu ciel",
     "Kahverengi": "Marron"
-  }
+  },
+  "highlight.title": "Essayez virtuellement !",
+  "highlight.description": "Appuyez sur ce bouton pour voir comment n'importe quel produit vous va grâce à l'IA.",
+  "highlight.dismiss": "Compris !"
 }

@@ -186,5 +186,8 @@
     "Lacivert": "Marinblå",
     "Acik Mavi": "Ljusblå",
     "Kahverengi": "Brun"
-  }
+  },
+  "highlight.title": "Prova virtuellt!",
+  "highlight.description": "Tryck på den här knappen för att se hur vilken produkt som helst ser ut på dig med AI.",
+  "highlight.dismiss": "Uppfattat!"
 }

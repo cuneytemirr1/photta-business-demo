@@ -186,5 +186,8 @@
     "Lacivert": "네이비",
     "Acik Mavi": "라이트 블루",
     "Kahverengi": "브라운"
-  }
+  },
+  "highlight.title": "가상으로 착용해 보세요!",
+  "highlight.description": "이 버튼을 눌러 AI로 어떤 제품이든 착용 모습을 확인하세요.",
+  "highlight.dismiss": "확인!"
 }

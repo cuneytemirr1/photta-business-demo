@@ -186,5 +186,8 @@
     "Lacivert": "Lacivert",
     "Acik Mavi": "Açık Mavi",
     "Kahverengi": "Kahverengi"
-  }
+  },
+  "highlight.title": "Sanal Olarak Dene!",
+  "highlight.description": "Bu butona dokunarak yapay zekâ ile ürünlerin üzerinizde nasıl göründüğünü görün.",
+  "highlight.dismiss": "Anladım!"
 }

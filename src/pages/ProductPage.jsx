@@ -7,7 +7,6 @@ import { useCart } from '../context/CartContext'
 import ProductCard from '../components/ProductCard'
 import ScrollReveal from '../components/ScrollReveal'
 import PageTransition from '../components/PageTransition'
-import usePhotta from '../hooks/usePhotta'
 
 export default function ProductPage() {
   const { slug } = useParams()
@@ -23,9 +22,6 @@ export default function ProductPage() {
   const [addedFeedback, setAddedFeedback] = useState(false)
 
   const currentImage = product ? product.colors[selectedColor]?.image : null
-  const fullImageUrl = currentImage ? `${window.location.origin}/img/${currentImage}` : null
-
-  usePhotta(fullImageUrl)
 
   if (!product) {
     return (

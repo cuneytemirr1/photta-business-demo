@@ -186,5 +186,8 @@
     "Lacivert": "Navy",
     "Acik Mavi": "Light Blue",
     "Kahverengi": "Brown"
-  }
+  },
+  "highlight.title": "Try It On Virtually!",
+  "highlight.description": "Tap this button to see how any product looks on you using AI.",
+  "highlight.dismiss": "Got it!"
 }

@@ -186,5 +186,8 @@
     "Lacivert": "كحلي",
     "Acik Mavi": "أزرق فاتح",
     "Kahverengi": "بني"
-  }
+  },
+  "highlight.title": "جرّب افتراضيًا!",
+  "highlight.description": "اضغط على هذا الزر لترى كيف يبدو أي منتج عليك باستخدام الذكاء الاصطناعي.",
+  "highlight.dismiss": "فهمت!"
 }
