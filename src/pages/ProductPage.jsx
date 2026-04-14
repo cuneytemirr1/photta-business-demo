@@ -156,8 +156,8 @@ export default function ProductPage() {
             {/* Add to Cart */}
             <button
               onClick={handleAddToCart}
-              disabled={selectedSize === null}
-              className={`w-full py-4 text-xs font-medium tracking-[0.15em] uppercase transition-all ${
+              disabled={selectedSize === null && !addedFeedback}
+              className={`w-full py-4 text-xs font-medium tracking-[0.15em] uppercase transition-colors duration-300 ${
                 addedFeedback
                   ? 'bg-emerald text-white'
                   : 'bg-brand-text text-white hover:bg-black disabled:opacity-30 disabled:cursor-not-allowed'

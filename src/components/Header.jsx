@@ -39,9 +39,9 @@ export default function Header({ onSearchOpen }) {
               <Search size={18} strokeWidth={1.5} />
             </button>
             <Link to="/sepet" className="text-brand-text hover:text-emerald transition-colors relative">
-              <ShoppingBag size={18} strokeWidth={1.5} />
+              <ShoppingBag size={20} strokeWidth={1.5} />
               {totalItems > 0 && (
-                <span className="absolute -top-2 -right-2 w-4 h-4 bg-emerald text-white text-[10px] rounded-full flex items-center justify-center">
+                <span className="absolute -top-2.5 -right-2.5 w-5 h-5 bg-emerald text-white text-[11px] font-medium rounded-full flex items-center justify-center animate-bounce-once">
                   {totalItems}
                 </span>
               )}
