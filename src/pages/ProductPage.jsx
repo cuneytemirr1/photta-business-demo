@@ -145,11 +145,20 @@ export default function ProductPage() {
 
             {/* Photta Try-On */}
             <button
-              data-photta-trigger
+              onClick={() => {
+                const imgUrl = `${window.location.origin}/img/${currentImage}`
+                if (window.PhottaWidget) {
+                  window.PhottaWidget.setProduct({ imageUrl: imgUrl, productType: 'apparel' })
+                  window.PhottaWidget.open()
+                }
+              }}
               className="w-full py-4 mb-3 border border-emerald-500 text-emerald-500 text-xs font-medium tracking-[0.15em] uppercase hover:bg-emerald-600 hover:text-white transition-all flex items-center justify-center gap-2"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                <path d="M12 2a5 5 0 015 5v1H7V7a5 5 0 015-5z" />
+                <path d="M4 8h16v12a2 2 0 01-2 2H6a2 2 0 01-2-2V8z" />
+                <path d="M9 12v2" />
+                <path d="M15 12v2" />
               </svg>
               {t('product.tryOn')}
             </button>
