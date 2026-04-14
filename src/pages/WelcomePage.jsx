@@ -10,9 +10,9 @@ export default function WelcomePage() {
 
   useEffect(() => {
     if (!brandName) { navigate('/'); return }
-    const t1 = setTimeout(() => setPhase(1), 3000)
-    const t2 = setTimeout(() => setPhase(2), 5500)
-    const t3 = setTimeout(() => navigate('/home'), 6500)
+    const t1 = setTimeout(() => setPhase(1), 5000)
+    const t2 = setTimeout(() => setPhase(2), 8500)
+    const t3 = setTimeout(() => navigate('/home'), 9500)
     return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3) }
   }, [brandName, navigate])
 
@@ -28,7 +28,10 @@ export default function WelcomePage() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="text-center px-8"
           >
-            <HandwrittenText text={`${brandName} deneyimine hazir misin?`} />
+            <HandwrittenText
+              brandName={brandName}
+              suffix=" deneyimine hazir misin?"
+            />
           </motion.div>
         )}
         {phase === 1 && (
@@ -57,23 +60,30 @@ export default function WelcomePage() {
   )
 }
 
-function HandwrittenText({ text }) {
+function HandwrittenText({ brandName, suffix }) {
+  const fullText = brandName + suffix
   const [displayedChars, setDisplayedChars] = useState(0)
 
   useEffect(() => {
     const interval = setInterval(() => {
       setDisplayedChars(prev => {
-        if (prev >= text.length) { clearInterval(interval); return prev }
+        if (prev >= fullText.length) { clearInterval(interval); return prev }
         return prev + 1
       })
-    }, 60)
+    }, 100)
     return () => clearInterval(interval)
-  }, [text])
+  }, [fullText])
+
+  const brandEnd = brandName.length
+  const shown = fullText.slice(0, displayedChars)
+  const brandPart = shown.slice(0, Math.min(displayedChars, brandEnd))
+  const suffixPart = displayedChars > brandEnd ? shown.slice(brandEnd) : ''
 
   return (
-    <p className="text-2xl md:text-4xl font-light tracking-wider text-brand-text" style={{ fontStyle: 'italic' }}>
-      {text.slice(0, displayedChars)}
-      <span className="animate-pulse">|</span>
+    <p className="text-2xl md:text-4xl tracking-wider text-brand-text" style={{ fontStyle: 'italic' }}>
+      <span className="font-semibold">{brandPart}</span>
+      <span className="font-light">{suffixPart}</span>
+      {displayedChars < fullText.length && <span className="animate-pulse font-light">|</span>}
     </p>
   )
 }

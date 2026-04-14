@@ -18,18 +18,14 @@ export default function EntryPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-brand-bg">
       <form onSubmit={handleSubmit} className="text-center max-w-md w-full px-8">
-        <div className="mb-12">
-          <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-emerald/10 flex items-center justify-center">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-            </svg>
-          </div>
-          <h1 className="text-3xl font-light tracking-[0.2em] text-brand-text mb-3">VITRIN</h1>
-          <p className="text-sm text-brand-muted font-light">Sanal deneme deneyimini kesfet</p>
+        <div className="mb-14">
+          <h1 className="text-3xl font-light tracking-[0.25em] text-brand-text mb-3">VITRIN</h1>
+          <div className="w-8 h-px bg-emerald mx-auto mb-4"></div>
+          <p className="text-sm text-brand-muted font-light tracking-wider">Sanal deneme deneyimini kesfet</p>
         </div>
 
-        <div className="mb-8">
-          <label className="block text-xs font-medium tracking-[0.15em] uppercase text-brand-muted mb-3">
+        <div className="mb-10">
+          <label className="block text-xs font-medium tracking-[0.15em] uppercase text-brand-muted mb-4">
             Marka Adiniz
           </label>
           <input
@@ -45,7 +41,7 @@ export default function EntryPage() {
         <button
           type="submit"
           disabled={!input.trim()}
-          className="w-full py-4 bg-emerald text-white text-sm font-medium tracking-[0.15em] uppercase rounded-none hover:bg-emerald-600 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+          className="w-full py-4 bg-brand-text text-white text-sm font-medium tracking-[0.15em] uppercase hover:bg-black transition-colors disabled:opacity-20 disabled:cursor-not-allowed"
         >
           Baslat
         </button>
