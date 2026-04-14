@@ -1,7 +1,9 @@
 import { useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function usePhotta(productImageUrl) {
   const scriptRef = useRef(null)
+  const { i18n } = useTranslation()
 
   useEffect(() => {
     if (scriptRef.current) {
@@ -12,11 +14,13 @@ export default function usePhotta(productImageUrl) {
     if (!productImageUrl) return
 
     const js = document.createElement('script')
+    js.async = true
     js.src = 'https://widget.photta.app/v1/embed.js'
-    js.setAttribute('data-key', 'pk_live_6adedc792623f00335298815f871608d')
+    js.setAttribute('data-api-key', 'pk_live_fdae56ca548b7527551aa08bd57cd674')
     js.setAttribute('data-product-image', productImageUrl)
     js.setAttribute('data-product-type', 'apparel')
-    document.body.appendChild(js)
+    js.setAttribute('data-lang', i18n.language || 'en')
+    document.head.appendChild(js)
     scriptRef.current = js
 
     return () => {
@@ -25,5 +29,5 @@ export default function usePhotta(productImageUrl) {
         scriptRef.current = null
       }
     }
-  }, [productImageUrl])
+  }, [productImageUrl, i18n.language])
 }
